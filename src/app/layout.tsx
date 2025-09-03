@@ -6,8 +6,56 @@ import { twMerge } from "tailwind-merge";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saas Landing Page",
-  description: "SaaS Landing Page with React, Next.js, TailwindCSS & Framer Motion",
+  title: {
+    default: "ICISRI 2024 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
+    template: "%s | ICISRI 2024"
+  },
+  description: "Join ICISRI 2024 at PIET, Jaipur - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Explore cutting-edge research in AI, semiconductor technology, robotics, and IoT applications.",
+  keywords: [
+    "ICISRI 2024",
+    "International Conference",
+    "Intelligent Systems",
+    "Semiconductors",
+    "Robotics",
+    "IoT",
+    "Internet of Things",
+    "Artificial Intelligence",
+    "PIET Jaipur",
+    "Research Conference",
+    "Technology Conference",
+    "IEEE Conference",
+    "Academic Conference"
+  ],
+  authors: [{ name: "PIET IoT Department" }],
+  creator: "Poornima Institute of Engineering and Technology",
+  publisher: "PIET IoT Department",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://icisri.piet.poornima.org",
+    title: "ICISRI 2024 - International Conference on Intelligent Systems",
+    description: "International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT at PIET, Jaipur. Submit your research papers and join leading experts.",
+    siteName: "ICISRI 2024",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ICISRI 2024 - International Conference on Intelligent Systems",
+    description: "Join ICISRI 2024 at PIET, Jaipur. Conference on Intelligent Systems Using Semiconductors for Robotics and IoT.",
+  },
+  verification: {
+    google: "your-google-site-verification-code",
+  },
 };
 
 export default function RootLayout({

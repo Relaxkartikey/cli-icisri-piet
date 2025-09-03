@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 
 // Using direct public paths
@@ -8,8 +8,26 @@ const cogImagePath = "/assets/cog.png";
 const cylinderImagePath = "/assets/cylinder.png";
 const ktlogoPath = "/assets/ktlogo.png";
 
+// Carousel images - using ktlogo as requested
+const carouselImages = [
+  { src: ktlogoPath, alt: "Conference Logo 1" },
+  { src: ktlogoPath, alt: "Conference Logo 2" },
+  { src: ktlogoPath, alt: "Conference Logo 3" },
+  { src: ktlogoPath, alt: "Conference Logo 4" },
+];
+
 export const Hero = () => {
   const heroRef = useRef(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Auto-rotate carousel
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % carouselImages.length);
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
 
   // Animation variants
   const containerVariants = {
@@ -31,19 +49,6 @@ export const Hero = () => {
       transition: {
         duration: 0.6,
         ease: [0.22, 1, 0.36, 1]
-      }
-    }
-  };
-
-  const calendarVariants = {
-    hidden: { opacity: 0, scale: 0.9 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        duration: 0.5,
-        ease: [0.22, 1, 0.36, 1],
-        delay: 0.6
       }
     }
   };
@@ -97,86 +102,141 @@ export const Hero = () => {
         />
       </motion.div>
 
-      <div className="container py-16 sm:py-20 md:py-24">
-        <motion.div 
-          className="flex flex-col items-center justify-center text-center"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
-          {/* Conference Tag */}
+      <div className="container pt-2 pb-12 sm:pt-8 sm:pb-16 md:pt-10 md:pb-20">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+          {/* Left Side - Content */}
           <motion.div 
-            className="px-4 py-1.5 bg-[#001E80] text-white text-sm rounded-full mb-4 md:mb-6"
-            variants={itemVariants}
+            className="flex-1 text-left flex flex-col justify-center max-w-xl"
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
           >
-            ICISRI 2024
-          </motion.div>
-          
-          {/* Main Heading */}
-          <motion.h1 
-            className="text-[#010D3E] text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold tracking-tight max-w-5xl leading-tight px-4"
-            variants={itemVariants}
-          >
-            1<sup>st</sup> International Conference on
-            <span className="block mt-1 md:mt-2">Intelligent Systems using</span>
-            <span className="block mt-1 md:mt-2">Semiconductors for Robotics and IoT</span>
-          </motion.h1>
-          
-          {/* Tagline */}
-          <motion.div 
-            className="mt-4 md:mt-6 max-w-3xl text-[#010D3E]/90 text-base sm:text-lg md:text-xl italic px-4"
-            variants={itemVariants}
-          >
-            &quot;Coming together is a beginning; keeping together is progress;
-            working together is success.&quot;
-          </motion.div>
-          
-          {/* Date and Register Section */}
-          <motion.div 
-            className="mt-8 md:mt-10 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-10 px-4"
-            variants={itemVariants}
-          >
-            {/* Date Card */}
-            <div className="bg-white rounded-xl shadow-[0_5px_10px_#EAEAEA] border border-[#F1F1F1] overflow-hidden py-2 px-4 sm:px-5 flex items-center">
-              <div className="text-[#001E80] font-medium mr-2 text-sm sm:text-base">November 2024:</div>
-              <div className="text-[#010D3E] text-sm sm:text-base">29-30 (Friday & Saturday)</div>
-            </div>
+            {/* Conference Tag */}
+            <motion.div 
+              className="text-sm inline-block border border-[#001E80]/20 px-3 py-1 rounded-lg tracking-tight bg-[#001E80] text-white font-medium mb-4 shadow-sm w-fit"
+              variants={itemVariants}
+            >
+              ICISRI 2024
+            </motion.div>
             
-            {/* Register Button */}
-            <button className="bg-[#001E80] text-white font-medium px-5 py-2 rounded-lg hover:bg-[#001E80]/90 transition-all text-sm sm:text-base">
-              Register Now
-            </button>
+            {/* Main Heading */}
+            <motion.h1 
+              className="text-[#010D3E] text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight leading-tight"
+              variants={itemVariants}
+            >
+              1<sup>st</sup> International Conference on
+              <span className="block mt-1">Intelligent Systems using</span>
+              <span className="block mt-1">Semiconductors for Robotics and IoT</span>
+            </motion.h1>
+            
+            {/* Tagline */}
+            <motion.div 
+              className="mt-3 text-[#010D3E]/90 text-sm sm:text-base italic"
+              variants={itemVariants}
+            >
+              &quot;Coming together is a beginning; keeping together is progress;
+              working together is success.&quot;
+            </motion.div>
+            
+            {/* Date and Register Section */}
+            <motion.div 
+              className="mt-5 flex flex-col sm:flex-row items-start gap-3"
+              variants={itemVariants}
+            >
+              {/* Date Card */}
+              <div className="bg-gradient-to-r from-white to-[#F8FAFF] rounded-xl shadow-[0_4px_12px_rgba(0,30,128,0.15)] border border-[#E1E7FF] py-3 px-5 flex items-center">
+                <div className="text-[#001E80] font-semibold mr-2 text-sm">November 2024:</div>
+                <div className="text-[#010D3E] text-sm">29-30 (Fri & Sat)</div>
+              </div>
+              
+              {/* Register Button */}
+              <button className="bg-gradient-to-r from-[#001E80] to-[#183EC2] text-white font-semibold px-6 py-3 rounded-xl hover:shadow-[0_6px_20px_rgba(0,30,128,0.3)] transition-all text-sm transform hover:-translate-y-0.5">
+                Register Now
+              </button>
+            </motion.div>
+            
+            {/* Small Notes Box */}
+            <motion.div 
+              className="mt-4"
+              variants={itemVariants}
+            >
+              <div className="bg-gradient-to-r from-white/80 to-[#F8FAFF]/80 backdrop-blur-sm rounded-xl p-4 text-xs leading-relaxed text-[#010D3E]/80 border border-[#E1E7FF]/50 shadow-[0_2px_8px_rgba(0,30,128,0.08)]">
+                <span className="font-semibold text-[#001E80] mr-1">ICISRI 2024 Final Technical Session Schedule.</span>
+                Registered papers will be published in CRC Press & UGC Care Listed Journal (IJTE)
+              </div>
+            </motion.div>
           </motion.div>
-          
-          {/* Small Notes Box */}
+
+          {/* Right Side - Image Carousel */}
           <motion.div 
-            className="mt-6 md:mt-8 max-w-2xl text-center px-4"
-            variants={itemVariants}
+            className="flex-1 flex justify-center lg:justify-end"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="bg-white/50 backdrop-blur-sm rounded-lg p-3 sm:p-4 text-xs leading-relaxed text-[#010D3E]/70">
-              <span className="font-medium text-[#010D3E] mr-2">ICISRI 2024 Final Technical Session Schedule.</span>
-              Registered and presented papers will be published in the proceedings of ICISRI-2024 in CRC Press (Tylor & Fransis) & UGC Care Listed Journal (IJTE)
+            <div className="relative w-80 h-80 lg:w-96 lg:h-96">
+              {/* Main carousel container */}
+              <div className="relative w-full h-full rounded-3xl bg-gradient-to-br from-white to-[#F5F6F9] shadow-[0_20px_40px_rgba(0,0,0,0.1)] border border-[#F1F1F1] overflow-hidden">
+                {/* Carousel images */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  {carouselImages.map((image, index) => (
+                    <motion.div
+                      key={index}
+                      className="absolute inset-0 flex items-center justify-center p-12"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      animate={{ 
+                        opacity: index === currentImageIndex ? 1 : 0,
+                        scale: index === currentImageIndex ? 1 : 0.8
+                      }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        width={200}
+                        height={150}
+                        className="object-contain max-w-full max-h-full"
+                      />
+                    </motion.div>
+                  ))}
+                </div>
+                
+                {/* Carousel indicators */}
+                <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                  {carouselImages.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentImageIndex(index)}
+                      className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                        index === currentImageIndex 
+                          ? 'bg-[#001E80] w-6' 
+                          : 'bg-[#001E80]/30 hover:bg-[#001E80]/50'
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
           </motion.div>
-          
-          {/* Scroll indicator for full-height hero */}
-          <motion.div 
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 w-8 h-8 text-[#001E80]/50 hidden md:block"
-            initial={{ opacity: 0.5, y: -5 }}
-            animate={{ 
-              opacity: [0.5, 0.8, 0.5], 
-              y: [-5, 0, -5] 
-            }}
-            transition={{ 
-              duration: 2, 
-              repeat: Infinity,
-              repeatType: "loop" 
-            }}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
-            </svg>
-          </motion.div>
+        </div>
+        
+        {/* Scroll indicator */}
+        <motion.div 
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 w-8 h-8 text-[#001E80]/50 hidden md:block"
+          initial={{ opacity: 0.5, y: -5 }}
+          animate={{ 
+            opacity: [0.5, 0.8, 0.5], 
+            y: [-5, 0, -5] 
+          }}
+          transition={{ 
+            duration: 2, 
+            repeat: Infinity,
+            repeatType: "loop" 
+          }}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+          </svg>
         </motion.div>
       </div>
     </section>

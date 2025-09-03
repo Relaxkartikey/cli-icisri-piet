@@ -1,63 +1,106 @@
 import Image from "next/image";
-
-// Using direct public paths
-const logo = "/assets/logosaas.png";
+import Link from "next/link";
 
 // Define social media icon components using the public path
 const SocialX = () => (
-  <a href="#" aria-label="X (Twitter)">
-    <Image src="/assets/social-x.svg" alt="X" width={24} height={24} />
+  <a href="https://x.com/PIET_Jaipur" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+    <Image src="/assets/social-x.svg" alt="X" width={20} height={20} />
   </a>
 );
 
 const SocialInsta = () => (
-  <a href="#" aria-label="Instagram">
-    <Image src="/assets/social-insta.svg" alt="Instagram" width={24} height={24} />
+  <a href="https://www.instagram.com/piet_jaipur/?hl=en" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+    <Image src="/assets/social-insta.svg" alt="Instagram" width={20} height={20} />
   </a>
 );
 
 const SocialLinkedin = () => (
-  <a href="#" aria-label="LinkedIn">
-    <Image src="/assets/social-linkedin.svg" alt="LinkedIn" width={24} height={24} />
-  </a>
-);
-
-const SocialPin = () => (
-  <a href="#" aria-label="Pinterest">
-    <Image src="/assets/social-pin.svg" alt="Pinterest" width={24} height={24} />
-  </a>
-);
-
-const SocialYoutube = () => (
-  <a href="#" aria-label="YouTube">
-    <Image src="/assets/social-youtube.svg" alt="YouTube" width={24} height={24} />
+  <a href="https://www.linkedin.com/school/poornima-group-of-colleges" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+    <Image src="/assets/social-linkedin.svg" alt="LinkedIn" width={20} height={20} />
   </a>
 );
 
 export const Footer = () => {
   return (
-    <footer className="bg-black text-[#BCBCBC] text-sm py-10 text-center">
+    <footer className="bg-black text-[#BCBCBC] py-20">
       <div className="container">
-        <div className="inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:w-full before:blur before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute">
-          <Image src={logo} alt="logo" height={40} width={150} className="relative" />
-        </div>
-        <nav className="flex flex-col md:flex-row md:justify-center gap-6 mt-6">
-          <a href="">About</a>
-          <a href="">Features</a>
-          <a href="">Custmers</a>
-          <a href="">Pricing</a>
-          <a href="">Help</a>
-          <a href="">Careers</a>
-        </nav>
+        {/* Main Footer Content */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
+          {/* Column 1: About ICISRI - Takes 2 columns */}
+          <div className="space-y-6 lg:col-span-2">
+            <h3 className="text-white text-xl font-bold mb-6">About ICISRI</h3>
+            <p className="text-[#BCBCBC] leading-relaxed">
+              The International Conference on Innovations in Semiconductor Research and IoT (ICISRI-2024) 
+              brings together researchers, academicians, and industry experts to explore cutting-edge 
+              developments in semiconductor technology and Internet of Things applications.
+            </p>
+            <div className="flex gap-6 pt-4">
+              <SocialX />
+              <SocialInsta />
+              <SocialLinkedin />
+            </div>
+          </div>
 
-        <div className="flex justify-center gap-6 mt-6">
-          <SocialX />
-          <SocialInsta />
-          <SocialLinkedin />
-          <SocialPin />
-          <SocialYoutube />
+          {/* Column 2: Navigation */}
+          <div className="space-y-6">
+            <h3 className="text-white text-xl font-bold mb-6">Navigation</h3>
+            <nav className="flex flex-col gap-4">
+              <Link href="/about" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">About</Link>
+              <Link href="/committees" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Committee</Link>
+              <Link href="/callforpaper" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Call for Paper</Link>
+              <Link href="/speakers" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Speakers</Link>
+              <Link href="/partners" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Partners</Link>
+            </nav>
+          </div>
+
+          {/* Column 3: Website */}
+          <div className="space-y-6">
+            <h3 className="text-white text-xl font-bold mb-6">Website</h3>
+            <nav className="flex flex-col gap-4">
+              <Link href="/sitemap" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Sitemap</Link>
+              <Link href="/contact" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Contact</Link>
+              <Link href="/report" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Report</Link>
+              <a href="https://github.com/relaxkartikey" target="_blank" rel="noopener noreferrer" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Developer</a>
+            </nav>
+          </div>
+
+          {/* Column 4: Organizers */}
+          <div className="space-y-6">
+            <h3 className="text-white text-xl font-bold mb-6">Organizers</h3>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
+                <Image src="/assets/ktlogo.png" alt="Organizer 1" width={60} height={40} className="object-contain" />
+              </div>
+              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
+                <Image src="/assets/ktlogo.png" alt="Organizer 2" width={60} height={40} className="object-contain" />
+              </div>
+              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
+                <Image src="/assets/ktlogo.png" alt="Organizer 3" width={60} height={40} className="object-contain" />
+              </div>
+              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
+                <Image src="/assets/ktlogo.png" alt="Organizer 4" width={60} height={40} className="object-contain" />
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="mt-6">&copy; 2024 Your Company, Inc. All rights reserved.</p>
+
+        {/* Copyright Bar */}
+        <div className="border-t border-[#333] pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <p className="text-[#BCBCBC] text-center md:text-left">© 2025 Poornima Institute of Engineering and Technology</p>
+            <p className="text-[#BCBCBC] text-center md:text-right">
+              Developed By{" "}
+              <a 
+                href="https://github.com/relaxkartikey" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white hover:text-[#FB92CF] transition-colors duration-300 font-medium"
+              >
+                @relaxkartikey
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   );

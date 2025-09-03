@@ -1,7 +1,8 @@
 {
-  "name": "light-saas-landing-page",
+  "name": "icisri-2024-conference-website",
   "version": "0.1.0",
   "private": true,
+  "description": "Official website for ICISRI 2024 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

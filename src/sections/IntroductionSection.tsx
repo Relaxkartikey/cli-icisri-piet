@@ -2,6 +2,7 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 // Using direct public paths
 const ktlogoPath = "/assets/ktlogo.png";
@@ -119,14 +120,17 @@ export const IntroductionSection = () => {
 							What is ICISRI-2024?
 						</h3>
 						<p className="text-[#010D3E]/80 leading-relaxed mb-4">
-							The International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT is a gathering where experts discuss how to make robots and IoT devices smarter using semiconductor technology. They explore topics like artificial intelligence, semiconductor advancements, robotics, and IoT applications. It's a place for researchers and industry professionals to share ideas and innovations in these fields.
+							The International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT is a gathering where experts discuss how to make robots and IoT devices smarter using semiconductor technology. They explore topics like artificial intelligence, semiconductor advancements, robotics, and IoT applications. It&apos;s a place for researchers and industry professionals to share ideas and innovations in these fields.
 						</p>
 						<p className="text-[#010D3E]/80 leading-relaxed">
 							The motivation behind the conference lies in the recognition of the growing importance of intelligent systems, semiconductor technology, robotics, and IoT in various industries. By bringing together experts from these fields, the conference aims to accelerate innovation, foster collaboration, and address challenges, ultimately driving progress towards smarter and more efficient solutions for robotics and IoT applications.
-						</p>						<button className="mt-6 text-[#001E80] font-medium inline-flex items-center">
-							Learn more about ICISRI
-							<Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-						</button>
+						</p>						
+						<Link href="/about">
+							<button className="mt-6 text-[#001E80] font-medium inline-flex items-center hover:text-[#001E80]/80 transition-colors">
+								Learn more about ICISRI
+								<Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+							</button>
+						</Link>
 					</motion.div>
 
 					<motion.div

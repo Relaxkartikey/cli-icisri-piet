@@ -1,12 +1,17 @@
 "use client";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
+import { IoCloudOutline } from "react-icons/io5";
+import { FaRobot, FaLaptopCode, FaNetworkWired } from "react-icons/fa";
+import { MdOutlineAutoFixHigh } from "react-icons/md";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { HiOutlineServer } from "react-icons/hi";
 
-// Using direct public path instead of import
-const ktlogo = "/assets/ktlogo.png";
+const arrowRightPath = "/assets/arrow-right.svg";
 
 function IconCode({ className, ...props }: React.ComponentProps<"svg">) {
   return (
@@ -126,45 +131,39 @@ function IconCloud({ className, ...props }: React.ComponentProps<"svg">) {
 export function BentoGridSection() {
   const features = [
     {
-      title: "Responsive Design",
-      description: "Our components are fully responsive and work seamlessly across all device sizes, providing a consistent experience.",
-      icon: <IconCode className="h-6 w-6 text-neutral-500" />,
-      image: ktlogo,
+      title: "Internet of Things",
+      description: "The interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data.",
+      icon: <GiArtificialIntelligence className="h-8 w-8 text-[#001E80]" />,
       index: 0
     },
     {
-      title: "Powerful Analytics",
-      description: "Gain insights into user behavior with comprehensive analytics tools designed for data-driven decisions.",
-      icon: <IconDatabase className="h-6 w-6 text-neutral-500" />,
-      image: ktlogo,
+      title: "Robotics",
+      description: "Robotics is an interdisciplinary research area at the interface of computer science and engineering.",
+      icon: <FaRobot className="h-8 w-8 text-[#001E80]" />,
       index: 1
     },
     {
-      title: "Seamless Integration",
-      description: "Easily integrate with your existing tools and workflows with our extensive API and plugin ecosystem.",
-      icon: <IconSettings className="h-6 w-6 text-neutral-500" />,
-      image: ktlogo,
+      title: "Automation",
+      description: "Automation, or labor-saving technology is the technology by which a process or procedure is performed with minimal human assistance.",
+      icon: <MdOutlineAutoFixHigh className="h-8 w-8 text-[#001E80]" />,
       index: 2
     },
     {
-      title: "Optimized Performance",
-      description: "Built with performance in mind for lightning-fast experiences that keep your users engaged on your platform.",
-      icon: <IconRocket className="h-6 w-6 text-neutral-500" />,
-      image: ktlogo,
+      title: "Cloud Computing",
+      description: "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.",
+      icon: <IoCloudOutline className="h-8 w-8 text-[#001E80]" />,
       index: 3
     },
     {
-      title: "Developer Friendly",
-      description: "Built with TypeScript and modern tools for a great developer experience and easy extensibility.",
-      icon: <IconBrandGithub className="h-6 w-6 text-neutral-500" />,
-      image: ktlogo,
+      title: "Cyber Forensics",
+      description: "Computer forensics is a branch of digital forensic science pertaining to evidence found in computers and digital storage media.",
+      icon: <FaLaptopCode className="h-8 w-8 text-[#001E80]" />,
       index: 4
     },
     {
-      title: "Cloud Deployment",
-      description: "Deploy your applications to the cloud with just a few clicks and scale effortlessly as your user base grows.",
-      icon: <IconCloud className="h-6 w-6 text-neutral-500" />,
-      image: ktlogo,
+      title: "High Performance Computing",
+      description: "High Performance Computing most generally refers to the practice of aggregating computing power in a way that delivers much higher performance than one could get out of a typical desktop computer.",
+      icon: <HiOutlineServer className="h-8 w-8 text-[#001E80]" />,
       index: 5
     },
   ];
@@ -174,12 +173,12 @@ export function BentoGridSection() {
       <div className="container">
         <div className="max-w-[540px] mx-auto">
           <div className="flex justify-center">
-            <div className="tag">Modern Design System</div>
+            <div className="tag">Research Conference</div>
           </div>
 
-          <h2 className="section-title mt-5">Discover our key features</h2>
+          <h2 className="section-title mt-5">Topics @ ICISRI-2024</h2>
           <p className="section-des mt-5">
-            Our platform provides powerful capabilities to help you build, scale, and succeed with your SaaS business.
+            Explore the key technology domains and research areas that will be covered at the International Conference on Innovations in Semiconductor Research and IoT.
           </p>
         </div>
 
@@ -195,64 +194,41 @@ export function BentoGridSection() {
                 viewport={{ once: true, amount: 0.3 }}
                 custom={feature.index}
               >
-                <div className="w-full h-full flex flex-col">
-                  <div className="relative overflow-hidden">                    <motion.div
-                      whileHover={{ scale: 1.05 }}
-                      transition={{ duration: 0.4 }}
-                      className="w-full"
-                    >
-                      <Image
-                        src={feature.image}
-                        alt={feature.title}
-                        width={500}
-                        height={176}
-                        className="w-full h-44 object-cover rounded-t-3xl"
-                      />
-                    </motion.div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="w-full h-full flex flex-col p-8">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-[#F8FAFF] p-4 rounded-xl mr-4 shadow-sm">
+                      {feature.icon}
+                    </div>
+                    <div className="font-semibold tracking-tight leading-6 text-lg text-[#010D3E]">
+                      {feature.title}
+                    </div>
                   </div>
-
-                  <div className="p-8 flex flex-col flex-grow">
-                    <div className="flex items-center">
-                      <div className="bg-[#F8FAFF] p-2 rounded-lg mr-3">{feature.icon}</div>
-                      <div className="font-medium tracking-tight leading-6 text-[#010D3E]">
-                        {feature.title}
-                      </div>
-                    </div>
-                    <div className="text-sm text-[#010D3E]/80 mt-4 flex-grow">
-                      {feature.description}
-                    </div>
-                    <motion.div
-                      className="mt-5 text-sm font-medium text-[#001E80] flex items-center"
-                      initial={{ opacity: 0.8 }}
-                      whileHover={{
-                        opacity: 1,
-                        x: 5,
-                        transition: { duration: 0.2 },
-                      }}
-                    >
-                      Learn more
-                      <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="ml-1"
-                      >
-                        <path
-                          d="M6 12L10 8L6 4"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </motion.div>
+                  <div className="text-base text-[#010D3E]/80 mt-2 flex-grow">
+                    {feature.description}
                   </div>
                 </div>
               </motion.div>
             ))}
+          </div>
+          
+          {/* Read More Button */}
+          <div className="flex justify-center mt-8">
+            <Link href="/about">
+              <motion.div
+                className="bg-[#001E80] text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <span>Read more</span>
+                <Image
+                  src={arrowRightPath}
+                  alt="arrow right"
+                  width={16}
+                  height={16}
+                  className="h-4 w-4 ml-2 filter invert"
+                />
+              </motion.div>
+            </Link>
           </div>
         </div>
       </div>

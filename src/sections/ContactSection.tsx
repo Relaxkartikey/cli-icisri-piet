@@ -13,10 +13,9 @@ const socialPaths = {
 
 export const ContactSection = () => {
   const socialLinks = [
-    { icon: socialPaths.linkedin, name: "LinkedIn", url: "#" },
-    { icon: socialPaths.x, name: "X", url: "#" },
-    { icon: socialPaths.instagram, name: "Instagram", url: "#" },
-    { icon: socialPaths.pinterest, name: "Pinterest", url: "#" },
+    { icon: socialPaths.linkedin, name: "LinkedIn", url: "https://www.linkedin.com/school/poornima-group-of-colleges" },
+    { icon: socialPaths.x, name: "X", url: "https://x.com/PIET_Jaipur" },
+    { icon: socialPaths.instagram, name: "Instagram", url: "https://www.instagram.com/piet_jaipur/?hl=en" },
   ];
 
   return (
@@ -40,15 +39,15 @@ export const ContactSection = () => {
               <div className="space-y-4">
                 <div>
                   <p className="text-sm font-medium text-[#001E80]">Email</p>
-                  <p className="text-base text-[#010D3E]">contact@example.com</p>
+                  <p className="text-base text-[#010D3E]">icisri@poornima.org</p>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-[#001E80]">Phone</p>
-                  <p className="text-base text-[#010D3E]">+1 (555) 123-4567</p>
+                  <p className="text-base text-[#010D3E]">+91-9785487195</p>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-[#001E80]">Address</p>
-                  <p className="text-base text-[#010D3E]">123 Innovation Drive, Tech City, TC 98765</p>
+                  <p className="text-base text-[#010D3E]">PIET, Jaipur, Rajasthan, INDIA</p>
                 </div>
               </div>
             </div>
@@ -89,15 +88,15 @@ export const ContactSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             >
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30599392366!2d-74.25986682526016!3d40.697149422113014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1714901442107!5m2!1sen!2s" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen 
-                loading="lazy" 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1234567890123!2d75.850381!3d26.767779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7b7b7b7b7b7%3A0x1234567890abcdef!2sPoornima%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Map showing our location"
+                title="Map showing PIET location"
               ></iframe>
             </motion.div>
           </div>
