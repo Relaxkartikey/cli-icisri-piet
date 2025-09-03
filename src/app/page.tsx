@@ -18,8 +18,6 @@ export default function Home() {
       <PartnersSection />
       <TeamSection />
       <ContactSection />
-      <CallToAction />
-      <Footer />
     </div>
   );
 }

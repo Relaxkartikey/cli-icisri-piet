@@ -11,30 +11,30 @@ const arrowRightPath = "/assets/arrow-right.svg";
 const featureCards = [
 	{
 		id: 1,
-		title: "Research & Innovation",
+		title: "Knowledge Sharing",
 		description:
-			"Pioneering research in emerging technologies and methodologies for industry applications.",
+			"Facilitating the exchange of cutting-edge research findings and innovative ideas between academia and industry professionals.",
 		icon: "cog",
 	},
 	{
 		id: 2,
-		title: "Global Collaboration",
+		title: "Semiconductor Advancement",
 		description:
-			"Building partnerships with leading institutions and researchers worldwide.",
+			"Advancing semiconductor technology specifically for robotics and IoT applications to create smarter systems.",
 		icon: "star",
 	},
 	{
 		id: 3,
-		title: "Knowledge Sharing",
+		title: "Foster Collaboration",
 		description:
-			"Facilitating the exchange of ideas through publications, conferences, and workshops.",
+			"Building strong partnerships between researchers, industry experts, and institutions to accelerate innovation.",
 		icon: "spring",
 	},
 	{
 		id: 4,
-		title: "Industry Solutions",
+		title: "Networking Opportunities",
 		description:
-			"Developing practical applications and solutions for real-world challenges.",
+			"Providing valuable networking platforms for professionals to connect, collaborate, and address industry challenges.",
 		icon: "tube",
 	},
 ];
@@ -96,13 +96,12 @@ export const IntroductionSection = () => {
 			<div className="container">
 				<div className="section-heading">
 					<div className="flex justify-center">
-						<div className="tag">About Us</div>
+						<div className="tag">About Conference</div>
 					</div>
 
 					<h2 className="section-title mt-5">Introduction</h2>
 					<p className="section-des mt-5">
-						Learn more about our mission, vision, and the impact we&#39;re making
-						in the field.
+						Discover ICISRI-2024: Where intelligent systems, semiconductor technology, robotics, and IoT converge for innovation.
 					</p>
 				</div>
 
@@ -117,23 +116,15 @@ export const IntroductionSection = () => {
 						custom={0}
 					>
 						<h3 className="text-2xl font-semibold text-[#010D3E] mb-4">
-							Advancing Research and Technology
+							What is ICISRI-2024?
 						</h3>
 						<p className="text-[#010D3E]/80 leading-relaxed mb-4">
-							We are dedicated to advancing the frontiers of knowledge in various
-							fields through innovative research, collaborative projects, and
-							industry partnerships. Our multidisciplinary approach allows us to
-							tackle complex challenges and create solutions that have real-world
-							impact.
+							The International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT is a gathering where experts discuss how to make robots and IoT devices smarter using semiconductor technology. They explore topics like artificial intelligence, semiconductor advancements, robotics, and IoT applications. It's a place for researchers and industry professionals to share ideas and innovations in these fields.
 						</p>
 						<p className="text-[#010D3E]/80 leading-relaxed">
-							Established with a vision to bridge the gap between academic research
-							and industry applications, we continue to foster an environment of
-							creativity, critical thinking, and excellence. Our team of experts
-							works tirelessly to ensure that we remain at the cutting edge of
-							technological advancements.
+							The motivation behind the conference lies in the recognition of the growing importance of intelligent systems, semiconductor technology, robotics, and IoT in various industries. By bringing together experts from these fields, the conference aims to accelerate innovation, foster collaboration, and address challenges, ultimately driving progress towards smarter and more efficient solutions for robotics and IoT applications.
 						</p>						<button className="mt-6 text-[#001E80] font-medium inline-flex items-center">
-							Read our story
+							Learn more about ICISRI
 							<Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
 						</button>
 					</motion.div>

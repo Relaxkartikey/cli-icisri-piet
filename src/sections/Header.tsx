@@ -14,13 +14,13 @@ export const Header = () => {
             <Image src={logoPath} alt="Saas logo" height={40} width={40} />
             <Image src={menuPath} alt="Menu" height={20} width={20} className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
-              <a href="">About</a>
-              <a href="">Features</a>
-              <a href="">Custmers</a>
-              <a href="">Updates</a>
-              <a href="">Help</a>
+              <a href="/about">About</a>
+              <a href="/committees">Committees</a>
+              <a href="/callforpaper">Call for Paper</a>
+              <a href="/speakers">Speakers</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
-                Get for free
+                Apply Now
+                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
               </button>
             </nav>
           </div>
