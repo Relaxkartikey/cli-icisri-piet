@@ -13,11 +13,11 @@ interface SubmitPaperPopupProps {
 export const SubmitPaperPopup = ({ isOpen, onClose }: SubmitPaperPopupProps) => {
 
   const importantDates = [
-    { event: "Paper Submission", date: "30 Oct, 2024" },
-    { event: "Notification", date: "5 Nov, 2024" },
-    { event: "Camera Ready", date: "8 Nov, 2024" },
-    { event: "Registration", date: "8 Nov, 2024" },
-    { event: "Conference", date: "29-30 Nov, 2024" }
+    { event: "Paper Submission", date: "30 Oct, 2025" },
+    { event: "Notification", date: "5 Nov, 2025" },
+    { event: "Camera Ready", date: "8 Nov, 2025" },
+    { event: "Registration", date: "8 Nov, 2025" },
+    { event: "Conference", date: "29-30 Nov, 2025" }
   ];
 
   const submissionSteps = [
@@ -59,7 +59,7 @@ export const SubmitPaperPopup = ({ isOpen, onClose }: SubmitPaperPopupProps) => 
                 </div>
                 <div>
                   <h2 className="text-2xl font-bold">Submit Your Paper</h2>
-                  <p className="text-white/90 mt-1">Join ICISRI 2024 - Share Your Research</p>
+                  <p className="text-white/90 mt-1">Join ICISRI 2025 - Share Your Research</p>
                 </div>
               </div>
             </div>

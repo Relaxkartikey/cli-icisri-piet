@@ -7,8 +7,8 @@ import { AboutPIET } from "@/sections/about/AboutPIET";
 import { AboutIoTDepartment } from "@/sections/about/AboutIoTDepartment";
 
 export const metadata: Metadata = {
-  title: "About ICISRI 2024 & PIET",
-  description: "Learn about ICISRI 2024 conference, Poornima Institute of Engineering and Technology (PIET), and the IoT Department. Discover our mission, vision, and commitment to innovation in intelligent systems and IoT research.",
+  title: "About ICISRI 2025 & PIET",
+  description: "Learn about ICISRI 2025 conference, Poornima Institute of Engineering and Technology (PIET), and the IoT Department. Discover our mission, vision, and commitment to innovation in intelligent systems and IoT research.",
   keywords: [
     "About ICISRI",
     "PIET Jaipur",

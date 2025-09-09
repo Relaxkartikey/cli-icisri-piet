@@ -111,7 +111,7 @@ export const ReportHero = () => {
             className="mt-4 md:mt-6 max-w-4xl text-[#010D3E]/80 text-lg sm:text-xl md:text-2xl font-medium px-4 text-center"
             variants={itemVariants}
           >
-            Help us make ICISRI-2024 better by reporting issues, providing feedback, or suggesting improvements. 
+            Help us make ICISRI-2025 better by reporting issues, providing feedback, or suggesting improvements. 
             Your input is valuable to us and helps enhance the experience for all participants.
           </motion.div>
         </motion.div>

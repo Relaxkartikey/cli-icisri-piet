@@ -7,12 +7,12 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "ICISRI 2024 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
-    template: "%s | ICISRI 2024"
+    default: "ICISRI 2025 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
+    template: "%s | ICISRI 2025"
   },
-  description: "Join ICISRI 2024 at PIET, Jaipur - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Explore cutting-edge research in AI, semiconductor technology, robotics, and IoT applications.",
+  description: "Join ICISRI 2025 at PIET, Jaipur - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Explore cutting-edge research in AI, semiconductor technology, robotics, and IoT applications.",
   keywords: [
-    "ICISRI 2024",
+    "ICISRI 2025",
     "International Conference",
     "Intelligent Systems",
     "Semiconductors",
@@ -44,14 +44,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://icisri.piet.poornima.org",
-    title: "ICISRI 2024 - International Conference on Intelligent Systems",
+    title: "ICISRI 2025 - International Conference on Intelligent Systems",
     description: "International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT at PIET, Jaipur. Submit your research papers and join leading experts.",
-    siteName: "ICISRI 2024",
+    siteName: "ICISRI 2025",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ICISRI 2024 - International Conference on Intelligent Systems",
-    description: "Join ICISRI 2024 at PIET, Jaipur. Conference on Intelligent Systems Using Semiconductors for Robotics and IoT.",
+    title: "ICISRI 2025 - International Conference on Intelligent Systems",
+    description: "Join ICISRI 2025 at PIET, Jaipur. Conference on Intelligent Systems Using Semiconductors for Robotics and IoT.",
   },
   verification: {
     google: "your-google-site-verification-code",

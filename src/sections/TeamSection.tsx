@@ -89,7 +89,7 @@ export const TeamSection = () => {
           
           <h2 className="section-title mt-5">Committee</h2>
           <p className="section-des mt-5">
-            Meet the distinguished leaders and organizers who are driving ICISRI-2024 forward.
+            Meet the distinguished leaders and organizers who are driving ICISRI-2025 forward.
           </p>
         </div>
         

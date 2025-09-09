@@ -30,7 +30,7 @@ export const Footer = () => {
           <div className="space-y-6 lg:col-span-2">
             <h3 className="text-white text-xl font-bold mb-6">About ICISRI</h3>
             <p className="text-[#BCBCBC] leading-relaxed">
-              The International Conference on Innovations in Semiconductor Research and IoT (ICISRI-2024) 
+              The International Conference on Innovations in Semiconductor Research and IoT (ICISRI-2025) 
               brings together researchers, academicians, and industry experts to explore cutting-edge 
               developments in semiconductor technology and Internet of Things applications.
             </p>
@@ -68,17 +68,17 @@ export const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-white text-xl font-bold mb-6">Organizers</h3>
             <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
-                <Image src="/assets/ktlogo.png" alt="Organizer 1" width={60} height={40} className="object-contain" />
+              <div className="bg-white rounded-lg p-3 flex items-center justify-center hover:bg-white/10 transition-colors duration-300">
+                <Image src="/assets/pics/idea.png" alt="Organizer 1" width={60} height={40} className="object-contain" />
               </div>
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
-                <Image src="/assets/ktlogo.png" alt="Organizer 2" width={60} height={40} className="object-contain" />
+              <div className="bg-white rounded-lg p-3 flex items-center justify-center hover:bg-white/10 transition-colors duration-300">
+                <Image src="/assets/pics/aicte.png" alt="Organizer 2" width={60} height={40} className="object-contain" />
               </div>
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
-                <Image src="/assets/ktlogo.png" alt="Organizer 3" width={60} height={40} className="object-contain" />
+              <div className="bg-white rounded-lg p-3 flex items-center justify-center hover:bg-white/10 transition-colors duration-300">
+                <Image src="/assets/pics/piet.png" alt="Organizer 3" width={60} height={40} className="object-contain" />
               </div>
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center hover:bg-white/20 transition-colors duration-300">
-                <Image src="/assets/ktlogo.png" alt="Organizer 4" width={60} height={40} className="object-contain" />
+              <div className="bg-white  rounded-lg p-3 flex items-center justify-center hover:bg-white/10 transition-colors duration-300">
+                <Image src="/assets/pics/25yrs.png" alt="Organizer 4" width={60} height={40} className="object-contain" />
               </div>
             </div>
           </div>

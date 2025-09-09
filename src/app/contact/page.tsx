@@ -9,7 +9,7 @@ import { SocialMediaSection } from "@/sections/contact/SocialMediaSection";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with ICISRI 2024 organizers. Find contact information, location details, FAQs, and connect with us for conference inquiries, paper submissions, and registration support.",
+  description: "Get in touch with ICISRI 2025 organizers. Find contact information, location details, FAQs, and connect with us for conference inquiries, paper submissions, and registration support.",
   keywords: [
     "Contact ICISRI",
     "Conference Contact",

@@ -111,7 +111,7 @@ export const PartnersHero = () => {
             className="mt-4 md:mt-6 max-w-4xl text-[#010D3E]/80 text-lg sm:text-xl md:text-2xl font-medium px-4 text-center"
             variants={itemVariants}
           >
-            ICISRI-2024 is proudly supported by leading academic institutions, professional organizations, 
+            ICISRI-2025 is proudly supported by leading academic institutions, professional organizations, 
             and industry partners who share our commitment to advancing technology research and innovation.
           </motion.div>
         </motion.div>

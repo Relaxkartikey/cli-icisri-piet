@@ -6,7 +6,7 @@ import { SpeakersSection } from "@/sections/speakers/SpeakersSection";
 
 export const metadata: Metadata = {
   title: "Keynote Speakers",
-  description: "Meet the distinguished keynote speakers at ICISRI 2024. Leading experts in intelligent systems, semiconductors, robotics, and IoT will share their insights and research.",
+  description: "Meet the distinguished keynote speakers at ICISRI 2025. Leading experts in intelligent systems, semiconductors, robotics, and IoT will share their insights and research.",
   keywords: [
     "Keynote Speakers",
     "ICISRI Speakers",

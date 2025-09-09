@@ -40,7 +40,7 @@ export const OrganizingPartnersSection = () => {
           </div>
           <h2 className="section-title mt-5">Organizing Partners</h2>
           <p className="section-des mt-5">
-            Institutional partners who provide essential support and resources for successfully conducting ICISRI-2024.
+            Institutional partners who provide essential support and resources for successfully conducting ICISRI-2025.
           </p>
         </div>
 

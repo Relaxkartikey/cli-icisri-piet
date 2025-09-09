@@ -8,7 +8,7 @@ import { GuidelinesSection } from "@/sections/report/GuidelinesSection";
 
 export const metadata: Metadata = {
   title: "Conference Reports & Publications",
-  description: "Access conference reports, research publications, and proceedings from ICISRI 2024. Submit your reports and explore published research in intelligent systems, semiconductors, robotics, and IoT.",
+  description: "Access conference reports, research publications, and proceedings from ICISRI 2025. Submit your reports and explore published research in intelligent systems, semiconductors, robotics, and IoT.",
   keywords: [
     "Conference Reports",
     "Research Publications",

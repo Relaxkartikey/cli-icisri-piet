@@ -6,7 +6,7 @@ import { CommitteesSection } from "@/sections/committees/CommitteesSection";
 
 export const metadata: Metadata = {
   title: "Conference Committees",
-  description: "Meet the organizing committee, advisory board, and review committee members of ICISRI 2024. Distinguished academics and industry experts leading the conference organization.",
+  description: "Meet the organizing committee, advisory board, and review committee members of ICISRI 2025. Distinguished academics and industry experts leading the conference organization.",
   keywords: [
     "Conference Committee",
     "Organizing Committee",

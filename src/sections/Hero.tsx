@@ -116,7 +116,7 @@ export const Hero = () => {
               className="text-sm inline-block border border-[#001E80]/20 px-3 py-1 rounded-lg tracking-tight bg-[#001E80] text-white font-medium mb-4 shadow-sm w-fit"
               variants={itemVariants}
             >
-              ICISRI 2024
+              ICISRI 2025
             </motion.div>
             
             {/* Main Heading */}
@@ -145,7 +145,7 @@ export const Hero = () => {
             >
               {/* Date Card */}
               <div className="bg-gradient-to-r from-white to-[#F8FAFF] rounded-xl shadow-[0_4px_12px_rgba(0,30,128,0.15)] border border-[#E1E7FF] py-3 px-5 flex items-center">
-                <div className="text-[#001E80] font-semibold mr-2 text-sm">November 2024:</div>
+                <div className="text-[#001E80] font-semibold mr-2 text-sm">November 2025:</div>
                 <div className="text-[#010D3E] text-sm">29-30 (Fri & Sat)</div>
               </div>
               
@@ -161,7 +161,7 @@ export const Hero = () => {
               variants={itemVariants}
             >
               <div className="bg-gradient-to-r from-white/80 to-[#F8FAFF]/80 backdrop-blur-sm rounded-xl p-4 text-xs leading-relaxed text-[#010D3E]/80 border border-[#E1E7FF]/50 shadow-[0_2px_8px_rgba(0,30,128,0.08)]">
-                <span className="font-semibold text-[#001E80] mr-1">ICISRI 2024 Final Technical Session Schedule.</span>
+                <span className="font-semibold text-[#001E80] mr-1">ICISRI 2025 Final Technical Session Schedule.</span>
                 Registered papers will be published in CRC Press & UGC Care Listed Journal (IJTE)
               </div>
             </motion.div>

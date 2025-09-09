@@ -72,7 +72,7 @@ export const SpeakersSection = () => {
           
           <h2 className="section-title mt-5">Speakers at ICISRI</h2>
           <p className="section-des mt-5">
-            Distinguished experts who will share their insights and knowledge at ICISRI 2024.
+            Distinguished experts who will share their insights and knowledge at ICISRI 2025.
           </p>
         </div>
         
