@@ -4,10 +4,9 @@ import Image from "next/image";
 import { FaBook } from "react-icons/fa";
 
 // Using direct public path
-const ktlogoPath = "/assets/ktlogo.png";
-const crc = "/assets/crc.png";
-const iste = "/assets/iste.png";
-const taru = "/assets/taru.png";
+const crc = "/assets/pics/crc.png";
+const iste = "/assets/pics/iste.png";
+const taru = "/assets/pics/taru.png";
 
 type PartnerType = "technical" | "publication" | "organizing";
 

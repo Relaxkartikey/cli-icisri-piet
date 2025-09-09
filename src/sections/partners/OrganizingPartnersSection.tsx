@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaLightbulb } from "react-icons/fa";
 
 // Using direct public path
-const ktlogoPath = "/assets/ktlogo.png";
+const idea = "/assets/pics/idea.png";
 
 type PartnerType = "technical" | "publication" | "organizing";
 
@@ -24,7 +24,7 @@ const organizingPartners: Partner[] = [
     name: "IDEA LAB Piet",
     bio: "Innovation, Design, Engineering, and Art Laboratory at Poornima Institute of Engineering & Technology.",
     description: "IDEA LAB at PIET is a state-of-the-art innovation hub that fosters creativity, research, and technological advancement. The laboratory serves as a catalyst for interdisciplinary collaboration, bringing together students, faculty, and industry professionals to work on cutting-edge projects in engineering, technology, and design. With modern facilities and equipment, IDEA LAB provides an environment where innovative ideas can be transformed into practical solutions.",
-    logo: ktlogoPath,
+    logo: idea,
     type: "organizing",
     website: "#"
   }
