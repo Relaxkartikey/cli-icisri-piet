@@ -8,6 +8,7 @@ const isteLogoPath = "/assets/pics/iste.png";
 const ieeeLogoPath = "/assets/pics/ieee.png";
 const acmLogoPath = "/assets/pics/acm.png";
 
+
 type PartnerType = "technical" | "publication" | "organizing";
 
 interface Partner {

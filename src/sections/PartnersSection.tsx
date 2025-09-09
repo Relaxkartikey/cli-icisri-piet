@@ -5,10 +5,12 @@ import { twMerge } from "tailwind-merge";
 import Image from "next/image";
 
 // Using direct public path
-const ktlogoPath = "/assets/ktlogo.png";
 const ieeeLogoPath = "/assets/pics/ieee.png";
 const acmLogoPath = "/assets/pics/acm.png";
 const isteLogoPath = "/assets/pics/iste.png";
+const crc = "/assets/pics/crc.png";
+const taru = "/assets/pics/taru.png";
+const idea = "/assets/pics/idea.png";
 
 type PartnerType = "technical" | "publication" | "organizing";
 
@@ -49,21 +51,21 @@ const partners: Partner[] = [
     id: "pub-1",
     name: "Taru Publication",
     bio: "Leading publisher of academic research papers and technical journals.",
-    logo: "/assets/ktlogo.png",
+    logo: taru,
     type: "publication",
   },
   {
     id: "pub-2",
     name: "CRC Publication",
     bio: "Premier publisher of technical and scientific resources with global reach.",
-    logo: "/assets/ktlogo.png",
+    logo: crc,
     type: "publication",
   },
   {
     id: "pub-3",
     name: "IJTE-ISTE Publication",
     bio: "International Journal of Technical Education specializing in educational technology research.",
-    logo: "/assets/ktlogo.png",
+    logo: isteLogoPath,
     type: "publication",
   },
   
@@ -72,7 +74,7 @@ const partners: Partner[] = [
     id: "org-1",
     name: "IDEA LAB Piet",
     bio: "Innovation, Design, Engineering, and Art Laboratory at Poornima Institute of Engineering & Technology.",
-    logo: "/assets/ktlogo.png",
+    logo: idea,
     type: "organizing",
   }
 ];
@@ -192,7 +194,7 @@ export const PartnersSection = () => {
                 >
                   <div className="flex flex-col h-full">                    <div className="w-36 h-36 mx-auto mt-10 rounded-xl overflow-hidden">
                       <Image 
-                        src={ktlogoPath}
+                        src={partner.logo}
                         alt={`${partner.name} logo`}
                         width={144}
                         height={144}
