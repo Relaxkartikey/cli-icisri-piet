@@ -6,6 +6,9 @@ import Image from "next/image";
 
 // Using direct public path
 const ktlogoPath = "/assets/ktlogo.png";
+const ieeeLogoPath = "/assets/pics/ieee.png";
+const acmLogoPath = "/assets/pics/acm.png";
+const isteLogoPath = "/assets/pics/iste.png";
 
 type PartnerType = "technical" | "publication" | "organizing";
 
@@ -23,21 +26,21 @@ const partners: Partner[] = [
     id: "tech-1",
     name: "ISTE",
     bio: "Indian Society for Technical Education - Promoting technical education in India through quality programs.",
-    logo: "/assets/pics/iste.png",
+    logo: isteLogoPath,
     type: "technical",
   },
   {
     id: "tech-2",
     name: "IEEE",
     bio: "Institute of Electrical and Electronics Engineers - World's largest technical professional organization dedicated to advancing technology.",
-    logo: "/assets/pics/ieee.png",
+    logo: ieeeLogoPath,
     type: "technical",
   },
   {
     id: "tech-3",
     name: "ACM",
     bio: "Association for Computing Machinery - International learned society for computing professionals and researchers.",
-    logo: "/assets/pics/acm.png",
+    logo: acmLogoPath,
     type: "technical",
   },
   
