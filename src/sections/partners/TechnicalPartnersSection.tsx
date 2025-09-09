@@ -4,7 +4,9 @@ import Image from "next/image";
 import { FaUniversity } from "react-icons/fa";
 
 // Using direct public path
-const ktlogoPath = "/assets/ktlogo.png";
+const isteLogoPath = "/assets/pics/iste.png";
+const ieeeLogoPath = "/assets/pics/ieee.png";
+const acmLogoPath = "/assets/pics/acm.png";
 
 type PartnerType = "technical" | "publication" | "organizing";
 
@@ -24,7 +26,7 @@ const technicalPartners: Partner[] = [
     name: "ISTE",
     bio: "Indian Society for Technical Education - Promoting technical education in India through quality programs.",
     description: "The Indian Society for Technical Education (ISTE) is a National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. ISTE conducts various programs for the development of Technical Education and to maintain the quality and relevance of technical education.",
-    logo: ktlogoPath,
+    logo: isteLogoPath,
     type: "technical",
     website: "https://www.isteonline.in/"
   },
@@ -33,7 +35,7 @@ const technicalPartners: Partner[] = [
     name: "IEEE",
     bio: "Institute of Electrical and Electronics Engineers - World's largest technical professional organization dedicated to advancing technology.",
     description: "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through highly cited publications, conferences, technology standards, and professional and educational activities. IEEE has over 400,000 members in over 160 countries.",
-    logo: ktlogoPath,
+    logo: ieeeLogoPath,
     type: "technical",
     website: "https://www.ieee.org/"
   },
@@ -42,7 +44,7 @@ const technicalPartners: Partner[] = [
     name: "ACM",
     bio: "Association for Computing Machinery - International learned society for computing professionals and researchers.",
     description: "ACM is an international learned society for computing. It was founded in 1947 and is the world's largest scientific and educational computing society. The ACM is a non-profit professional membership group, claiming nearly 100,000 student and professional members. Its headquarters are in New York City. ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges.",
-    logo: ktlogoPath,
+    logo: acmLogoPath,
     type: "technical",
     website: "https://www.acm.org/"
   }
