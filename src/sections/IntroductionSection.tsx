@@ -7,6 +7,8 @@ import Link from "next/link";
 // Using direct public paths
 const ktlogoPath = "/assets/ktlogo.png";
 const arrowRightPath = "/assets/arrow-right.svg";
+const pic5 = "/assets/confg/pic5.JPG";
+const pic3 = "/assets/confg/pic3.jpg";
 
 // Feature card data
 const featureCards = [
@@ -140,11 +142,12 @@ export const IntroductionSection = () => {
 						whileInView="visible"
 						viewport={{ once: true, amount: 0.2 }}
 					>
-						<div className="rounded-2xl overflow-hidden shadow-[0_15px_30px_rgba(0,0,0,0.1)] border border-[#F1F1F1] w-full max-w-[300px]">							<Image
-								src={ktlogoPath}
+						<div className="rounded-2xl overflow-hidden shadow-[0_15px_30px_rgba(0,0,0,0.1)] border border-[#F1F1F1] w-full max-w-[400px]">
+							<Image
+								src={pic3}
 								alt="Introduction image"
 								width={300}
-								height={200}
+								height={350}
 								className="w-full h-auto object-cover"
 								priority
 							/>

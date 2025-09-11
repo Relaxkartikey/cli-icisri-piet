@@ -18,7 +18,7 @@ The motivation for organizing ICISRI-2025 stems from the increasing relevance of
 - Contribute to a **sustainable, automated, and connected future**.
 -----
 ### <a name="_agfy055576he"></a>**📘 About the Conference**
-**1st International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT (ICISRI-2025)** is a flagship event focused on the intersection of smart technologies and semiconductor science. The conference will feature:
+**2nd International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT (ICISRI-2025)** is a flagship event focused on the intersection of smart technologies and semiconductor science. The conference will feature:
 
 - **Key themes**: Semiconductor devices, intelligent control, edge computing, IoT systems, robotics, embedded systems, machine learning, cyber-physical systems, and ethical implications.
 - **Applications**: Use-cases across **manufacturing**, **healthcare**, **agriculture**, **smart cities**, and **smart homes**.

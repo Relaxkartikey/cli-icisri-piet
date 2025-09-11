@@ -7,13 +7,28 @@ import Image from "next/image";
 const cogImagePath = "/assets/cog.png";
 const cylinderImagePath = "/assets/cylinder.png";
 const ktlogoPath = "/assets/ktlogo.png";
+const pic1 = "/assets/confg/pic1.jpg";
+const pic2 = "/assets/confg/pic2.jpg";
+const pic3 = "/assets/confg/pic3.jpg";
+const pic4 = "/assets/confg/pic4.jpg";
+const pic5 = "/assets/confg/pic5.JPG";
+const pic6 = "/assets/confg/pic6.JPG";
+const pic7 = "/assets/confg/pic7.JPG";
+const pic8 = "/assets/confg/pic8.JPG";
+const pic9 = "/assets/confg/pic9.webp";
+
 
 // Carousel images - using ktlogo as requested
 const carouselImages = [
-  { src: ktlogoPath, alt: "Conference Logo 1" },
-  { src: ktlogoPath, alt: "Conference Logo 2" },
-  { src: ktlogoPath, alt: "Conference Logo 3" },
-  { src: ktlogoPath, alt: "Conference Logo 4" },
+  { src: pic1, alt: "Conference view 1" },
+  { src: pic2, alt: "Conference view 2" },
+  { src: pic3, alt: "Conference view 3" },
+  { src: pic4, alt: "Conference view 4" },
+  { src: pic5, alt: "Conference view 5" },
+  { src: pic6, alt: "Conference view 6" },
+  { src: pic7, alt: "Conference view 7" },
+  { src: pic8, alt: "Conference view 8" },
+  { src: pic9, alt: "Conference view 9" },
 ];
 
 export const Hero = () => {
@@ -23,9 +38,11 @@ export const Hero = () => {
   // Auto-rotate carousel
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prev) => (prev + 1) % carouselImages.length);
-    }, 3000); // Change image every 3 seconds
-
+      setCurrentImageIndex((prev) => {
+        const nextIndex = (prev + 1) % carouselImages.length;
+        return nextIndex;
+      });
+    }, 3000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -124,7 +141,7 @@ export const Hero = () => {
               className="text-[#010D3E] text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight leading-tight"
               variants={itemVariants}
             >
-              1<sup>st</sup> International Conference on
+              2<sup>nd</sup> International Conference on
               <span className="block mt-1">Intelligent Systems using</span>
               <span className="block mt-1">Semiconductors for Robotics and IoT</span>
             </motion.h1>
@@ -174,43 +191,42 @@ export const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="relative w-80 h-80 lg:w-96 lg:h-96">
+            <div className="relative w-96 h-72 lg:w-[440px] lg:h-80">
               {/* Main carousel container */}
               <div className="relative w-full h-full rounded-3xl bg-gradient-to-br from-white to-[#F5F6F9] shadow-[0_20px_40px_rgba(0,0,0,0.1)] border border-[#F1F1F1] overflow-hidden">
                 {/* Carousel images */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  {carouselImages.map((image, index) => (
-                    <motion.div
-                      key={index}
-                      className="absolute inset-0 flex items-center justify-center p-12"
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ 
-                        opacity: index === currentImageIndex ? 1 : 0,
-                        scale: index === currentImageIndex ? 1 : 0.8
-                      }}
-                      transition={{ duration: 0.5 }}
-                    >
-                      <Image
-                        src={image.src}
-                        alt={image.alt}
-                        width={200}
-                        height={150}
-                        className="object-contain max-w-full max-h-full"
-                      />
-                    </motion.div>
-                  ))}
+                <div className="absolute inset-0 overflow-hidden">
+                  <div 
+                    className="flex h-full transition-transform duration-500 ease-in-out"
+                    style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}
+                  >
+                    {carouselImages.map((image, index) => (
+                      <div
+                        key={index}
+                        className="w-full h-full flex-shrink-0 relative"
+                      >
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 1024px) 384px, 440px"
+                        />
+                      </div>
+                    ))}
+                  </div>
                 </div>
                 
                 {/* Carousel indicators */}
-                <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
                   {carouselImages.map((_, index) => (
                     <button
                       key={index}
                       onClick={() => setCurrentImageIndex(index)}
                       className={`w-2 h-2 rounded-full transition-all duration-300 ${
                         index === currentImageIndex 
-                          ? 'bg-[#001E80] w-6' 
-                          : 'bg-[#001E80]/30 hover:bg-[#001E80]/50'
+                          ? 'bg-white w-6 shadow-lg' 
+                          : 'bg-white/60 hover:bg-white/80'
                       }`}
                     />
                   ))}

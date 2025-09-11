@@ -76,7 +76,7 @@ export const AboutIntro = () => {
             Introduction
           </h2>
           <p className="section-des mt-5">
-						 1st International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT
+						 2nd International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT
 					</p>
         </div>
         
