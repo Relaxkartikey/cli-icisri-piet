@@ -5,6 +5,7 @@ import Image from "next/image";
 // Using direct public path following existing pattern
 const ktlogoPath = "/assets/ktlogo.png";
 const arrowRightPath = "/assets/arrow-right.svg";
+const pic9 = "/assets/confg/pic9.webp";
 
 export const AboutPIET = () => {
   const fadeInUpVariants = {
@@ -46,7 +47,7 @@ export const AboutPIET = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-[0_15px_30px_rgba(0,0,0,0.1)] border border-[#F1F1F1] w-full max-w-[400px]">
               <Image
-                src={ktlogoPath}
+                src={pic9}
                 alt="PIET Institute"
                 width={400}
                 height={280}
