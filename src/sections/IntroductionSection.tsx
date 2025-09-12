@@ -7,8 +7,8 @@ import Link from "next/link";
 // Using direct public paths
 const ktlogoPath = "/assets/ktlogo.png";
 const arrowRightPath = "/assets/arrow-right.svg";
-const pic5 = "/assets/confg/pic5.JPG";
-const pic3 = "/assets/confg/pic3.jpg";
+const pic5 = "/assets/copics/conf5.JPG";
+const pic3 = "/assets/copics/conf3.JPG";
 
 // Feature card data
 const featureCards = [

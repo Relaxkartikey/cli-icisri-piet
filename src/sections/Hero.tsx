@@ -7,16 +7,14 @@ import Image from "next/image";
 const cogImagePath = "/assets/cog.png";
 const cylinderImagePath = "/assets/cylinder.png";
 const ktlogoPath = "/assets/ktlogo.png";
-const pic1 = "/assets/confg/pic1.jpg";
-const pic2 = "/assets/confg/pic2.jpg";
-const pic3 = "/assets/confg/pic3.jpg";
-const pic4 = "/assets/confg/pic4.jpg";
-const pic5 = "/assets/confg/pic5.JPG";
-const pic6 = "/assets/confg/pic6.JPG";
-const pic7 = "/assets/confg/pic7.JPG";
-const pic8 = "/assets/confg/pic8.JPG";
-const pic9 = "/assets/confg/pic9.webp";
-
+const pic1 = "/assets/copics/conf1.JPG";
+const pic2 = "/assets/copics/conf2.JPG";
+const pic3 = "/assets/copics/conf3.JPG";
+const pic4 = "/assets/copics/conf4.JPG";
+const pic5 = "/assets/copics/conf5.JPG";
+const pic6 = "/assets/copics/conf6.JPG";
+const pic7 = "/assets/copics/conf7.JPG";
+const pic8 = "/assets/copics/conf8.JPG";
 
 // Carousel images - using ktlogo as requested
 const carouselImages = [
@@ -28,7 +26,6 @@ const carouselImages = [
   { src: pic6, alt: "Conference view 6" },
   { src: pic7, alt: "Conference view 7" },
   { src: pic8, alt: "Conference view 8" },
-  { src: pic9, alt: "Conference view 9" },
 ];
 
 export const Hero = () => {
