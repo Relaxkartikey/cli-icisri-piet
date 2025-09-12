@@ -228,21 +228,21 @@ export const CallForPaperContent = () => {
           </div>
 
           {/* Formatting Guidelines */}
-          <div className="mt-8 bg-white rounded-2xl p-8 shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1]">
-            <h3 className="text-xl font-semibold text-[#010D3E] mb-4">Formatting Guidelines</h3>
-            <p className="text-[#010D3E]/80 leading-relaxed mb-6">
+          <div className="mt-8 bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1]">
+            <h3 className="text-lg sm:text-xl font-semibold text-[#010D3E] mb-4">Formatting Guidelines</h3>
+            <p className="text-sm sm:text-base text-[#010D3E]/80 leading-relaxed mb-6">
               ICISRI Conference Proceedings are indexed in a number of services, including these leading databases.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#001E80] text-white px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors">
+            <div className="flex flex-col gap-3 sm:gap-4 sm:flex-row">
+              <button className="bg-[#001E80] text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors text-sm sm:text-base">
                 Paper Template
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
               </button>
               
-              <button className="bg-black text-white px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/90 transition-colors">
+              <button className="bg-black text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/90 transition-colors text-sm sm:text-base">
                 Paper Submission Link
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
               </button>
             </div>
           </div>
