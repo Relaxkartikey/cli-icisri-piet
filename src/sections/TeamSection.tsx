@@ -124,10 +124,12 @@ export const TeamSection = () => {
         
         {/* Button */}
         <div className="flex justify-center mt-10">
-          <button className="bg-[#001E80] text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors">
-            View Full Committee
-            <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
-          </button>
+          <a href="/committees">
+            <button className="bg-[#001E80] text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors">
+              View Full Committee
+              <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
+            </button>
+          </a>
         </div>
       </div>
     </section>
