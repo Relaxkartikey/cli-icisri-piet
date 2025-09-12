@@ -5,16 +5,6 @@ import { FaClipboardList, FaEnvelope } from "react-icons/fa";
 export const ReportFormSection = () => (
   <section className="py-24 bg-gradient-to-b from-white to-[#EAEDF2]">
     <div className="container">
-      <div className="section-heading">
-        <div className="flex justify-center">
-          <div className="tag">Submit Report</div>
-        </div>
-        <h2 className="section-title mt-5">Report Form</h2>
-        <p className="section-des mt-5">
-          Our comprehensive reporting system will be available here soon with advanced features for better issue tracking.
-        </p>
-      </div>
-
       <motion.div
         className="mt-16 max-w-4xl mx-auto"
         initial={{ opacity: 0, y: 20 }}
