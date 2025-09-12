@@ -163,9 +163,12 @@ export const Hero = () => {
               </div>
               
               {/* Register Button */}
-              <button className="bg-gradient-to-r from-[#001E80] to-[#183EC2] text-white font-semibold px-6 py-3 rounded-xl hover:shadow-[0_6px_20px_rgba(0,30,128,0.3)] transition-all text-sm transform hover:-translate-y-0.5">
+                <a
+                href="/callforpaper"
+                className="bg-gradient-to-r from-[#001E80] to-[#183EC2] text-white font-semibold px-6 py-3 rounded-xl hover:shadow-[0_6px_20px_rgba(0,30,128,0.3)] transition-all text-sm transform hover:-translate-y-0.5"
+                >
                 Register Now
-              </button>
+                </a>
             </motion.div>
             
             {/* Small Notes Box */}
