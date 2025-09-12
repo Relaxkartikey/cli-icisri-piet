@@ -69,13 +69,23 @@ export const ContactSection = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a
-              href="/contact"
-              className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
-              >
-              Contact Page
-              <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-              </a>
+                <a
+                href="/contact"
+                className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
+                >
+                Contact Page
+                {/* Use a white right arrow SVG icon for better visibility on black background */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 ml-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="white"
+                  strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+                </a>
               <a
               href="/about"
               className="bg-white text-[#010D3E] border border-[#E6ECFF] px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#F8FAFF] transition-colors"
