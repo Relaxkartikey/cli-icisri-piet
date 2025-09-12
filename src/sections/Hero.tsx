@@ -6,7 +6,6 @@ import Image from "next/image";
 // Using direct public paths
 const cogImagePath = "/assets/cog.png";
 const cylinderImagePath = "/assets/cylinder.png";
-const ktlogoPath = "/assets/ktlogo.png";
 const pic1 = "/assets/copics/conf1.JPG";
 const pic2 = "/assets/copics/conf2.JPG";
 const pic3 = "/assets/copics/conf3.JPG";

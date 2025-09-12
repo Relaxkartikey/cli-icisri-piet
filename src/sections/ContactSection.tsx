@@ -68,14 +68,21 @@ export const ContactSection = () => {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
-                Contact Page
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-              </button>
-              <button className="bg-white text-[#010D3E] border border-[#E6ECFF] px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#F8FAFF] transition-colors">
-                About Us
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-              </button>
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <a
+              href="/contact"
+              className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight"
+              >
+              Contact Page
+              <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+              </a>
+              <a
+              href="/about"
+              className="bg-white text-[#010D3E] border border-[#E6ECFF] px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#F8FAFF] transition-colors"
+              >
+              About Us
+              <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+              </a>
             </div>
           </div>
           
