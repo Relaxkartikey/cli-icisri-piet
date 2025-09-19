@@ -18,10 +18,10 @@ export const SocialMediaSection = () => (
       <div className="mt-16 flex justify-center">
         <div className="flex flex-wrap gap-6 justify-center">
           {[
-            { icon: FaFacebook, name: "Facebook", color: "#1877F2", href: "#" },
-            { icon: FaTwitter, name: "Twitter", color: "#1DA1F2", href: "#" },
-            { icon: FaLinkedin, name: "LinkedIn", color: "#0A66C2", href: "#" },
-            { icon: FaInstagram, name: "Instagram", color: "#E4405F", href: "#" }
+            { icon: FaFacebook, name: "Facebook", color: "#1877F2", href: "https://www.facebook.com/PoornimaInstitute/" },
+            { icon: FaTwitter, name: "Twitter", color: "#1DA1F2", href: "https://x.com/piet_jaipur" },
+            { icon: FaLinkedin, name: "LinkedIn", color: "#0A66C2", href: "https://www.linkedin.com/school/poornima-group-of-colleges" },
+            { icon: FaInstagram, name: "Instagram", color: "#E4405F", href: "https://www.instagram.com/piet_jaipur" }
           ].map((social, index) => (
             <motion.a
               key={index}
