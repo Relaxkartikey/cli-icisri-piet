@@ -360,9 +360,9 @@ export const CommitteesSection = () => {
             <div className="tag">Members of Conference</div>
           </div>
           
-          <h2 className="section-title mt-5">ICISRI-2025</h2>
+          <h2 className="section-title mt-5">ICISRI-2026</h2>
           <p className="section-des mt-5">
-            Meet the distinguished experts and organizers who are making ICISRI 2025 possible.
+            Meet the distinguished experts and organizers who are making ICISRI 2026 possible.
           </p>
         </div>
         

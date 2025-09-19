@@ -7,12 +7,12 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "ICISRI 2025 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
-    template: "%s | ICISRI 2025"
+    default: "ICISRI 2026 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
+    template: "%s | ICISRI 2026"
   },
-  description: "Join ICISRI 2025 at PIET, Jaipur - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Explore cutting-edge research in AI, semiconductor technology, robotics, and IoT applications. Submit your research papers and connect with leading experts worldwide.",
+  description: "Join ICISRI 2026 at PIET, Jaipur - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Explore cutting-edge research in AI, semiconductor technology, robotics, and IoT applications. Submit your research papers and connect with leading experts worldwide.",
   keywords: [
-    "ICISRI 2025",
+    "ICISRI 2026",
     "International Conference",
     "Intelligent Systems",
     "Semiconductors for Robotics",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Artificial Intelligence Conference",
     "PIET Jaipur",
     "Poornima Institute",
-    "Research Conference 2025",
+    "Research Conference 2026",
     "Technology Conference India",
     "IEEE Conference",
     "Academic Conference",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   publisher: "PIET IoT Department",
   category: "Technology Conference",
   classification: "Academic Conference",
-  applicationName: "ICISRI 2025 Conference Website",
+  applicationName: "ICISRI 2026 Conference Website",
   referrer: "origin-when-cross-origin",
   formatDetection: {
     email: false,
@@ -85,22 +85,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://icisri.piet.poornima.org",
-    title: "ICISRI 2025 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
+    title: "ICISRI 2026 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
     description: "International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT at PIET, Jaipur. Submit your research papers and join leading experts from around the world.",
-    siteName: "ICISRI 2025",
+    siteName: "ICISRI 2026",
     images: [
       {
         url: '/assets/pics/logo-ici.png',
         width: 1200,
         height: 630,
-        alt: 'ICISRI 2025 Conference Logo',
+        alt: 'ICISRI 2026 Conference Logo',
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ICISRI 2025 - International Conference on Intelligent Systems",
-    description: "Join ICISRI 2025 at PIET, Jaipur. Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Submit papers & connect with experts.",
+    title: "ICISRI 2026 - International Conference on Intelligent Systems",
+    description: "Join ICISRI 2026 at PIET, Jaipur. Conference on Intelligent Systems Using Semiconductors for Robotics and IoT. Submit papers & connect with experts.",
     creator: "@PIET_Jaipur",
     images: ['/assets/pics/logo-ici.png'],
   },
@@ -118,8 +118,8 @@ export const metadata: Metadata = {
     'mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'default',
-    'apple-mobile-web-app-title': 'ICISRI 2025',
-    'application-name': 'ICISRI 2025',
+    'apple-mobile-web-app-title': 'ICISRI 2026',
+    'application-name': 'ICISRI 2026',
     'msapplication-TileColor': '#001E80',
     'msapplication-config': '/favicon/browserconfig.xml',
     'geo.region': 'IN-RJ',
@@ -137,11 +137,11 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Event",
-    "name": "ICISRI 2025 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
+    "name": "ICISRI 2026 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
     "description": "International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT at PIET, Jaipur. Submit your research papers and join leading experts from around the world.",
     "url": "https://icisri.piet.poornima.org",
-    "startDate": "2025-03-15",
-    "endDate": "2025-03-17",
+    "startDate": "2026-03-15",
+    "endDate": "2026-03-17",
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {

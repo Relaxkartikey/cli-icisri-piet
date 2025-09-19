@@ -111,7 +111,7 @@ export const ContactHero = () => {
             className="mt-4 md:mt-6 max-w-4xl text-[#010D3E]/80 text-lg sm:text-xl md:text-2xl font-medium px-4 text-center"
             variants={itemVariants}
           >
-            Have questions about ICISRI-2025? We&apos;re here to help! Reach out to us for information about 
+            Have questions about ICISRI-2026? We&apos;re here to help! Reach out to us for information about 
             submissions, registration, or general conference inquiries.
           </motion.div>
         </motion.div>

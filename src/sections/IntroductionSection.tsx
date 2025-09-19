@@ -103,7 +103,7 @@ export const IntroductionSection = () => {
 
 					<h2 className="section-title mt-5">Introduction</h2>
 					<p className="section-des mt-5">
-						Discover ICISRI-2025: Where intelligent systems, semiconductor technology, robotics, and IoT converge for innovation.
+						Discover ICISRI-2026: Where intelligent systems, semiconductor technology, robotics, and IoT converge for innovation.
 					</p>
 				</div>
 
@@ -118,7 +118,7 @@ export const IntroductionSection = () => {
 						custom={0}
 					>
 						<h3 className="text-2xl font-semibold text-[#010D3E] mb-4">
-							What is ICISRI-2025?
+							What is ICISRI-2026?
 						</h3>
 						<p className="text-[#010D3E]/80 leading-relaxed mb-4">
 							The International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT is a gathering where experts discuss how to make robots and IoT devices smarter using semiconductor technology. They explore topics like artificial intelligence, semiconductor advancements, robotics, and IoT applications. It&apos;s a place for researchers and industry professionals to share ideas and innovations in these fields.

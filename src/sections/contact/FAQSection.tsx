@@ -11,7 +11,7 @@ export const FAQSection = () => (
         </div>
         <h2 className="section-title mt-5">Frequently Asked Questions</h2>
         <p className="section-des mt-5">
-          Find quick answers to common questions about ICISRI-2025. Can&apos;t find what you&apos;re looking for? Contact us directly.
+          Find quick answers to common questions about ICISRI-2026. Can&apos;t find what you&apos;re looking for? Contact us directly.
         </p>
       </div>
 
@@ -31,7 +31,7 @@ export const FAQSection = () => (
           },
           {
             question: "What topics are covered in the conference?",
-            answer: "ICISRI-2025 covers IoT applications, semiconductor research, robotics, automation, cloud computing, cyber forensics, and high-performance computing."
+            answer: "ICISRI-2026 covers IoT applications, semiconductor research, robotics, automation, cloud computing, cyber forensics, and high-performance computing."
           }
         ].map((faq, index) => (
           <motion.div

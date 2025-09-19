@@ -95,7 +95,7 @@ export const CommitteesHero = () => {
             className="px-4 py-1.5 bg-[#001E80] text-white text-sm rounded-full mb-4 md:mb-6"
             variants={itemVariants}
           >
-            ICISRI 2025
+            ICISRI 2026
           </motion.div>
           
           {/* Main Heading */}
@@ -111,7 +111,7 @@ export const CommitteesHero = () => {
             className="mt-4 md:mt-6 max-w-3xl text-[#010D3E]/70 text-base sm:text-lg md:text-xl italic px-4"
             variants={itemVariants}
           >
-            &quot;Meet the distinguished experts leading ICISRI 2025&quot;
+            &quot;Meet the distinguished experts leading ICISRI 2026&quot;
           </motion.div>
         </motion.div>
       </div>

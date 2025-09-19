@@ -8,7 +8,7 @@ import { OrganizingPartnersSection } from "@/sections/partners/OrganizingPartner
 
 export const metadata: Metadata = {
   title: "Conference Partners",
-  description: "Discover our esteemed partners supporting ICISRI 2025. Meet our technical partners, publication partners, and organizing partners who make this international conference possible.",
+  description: "Discover our esteemed partners supporting ICISRI 2026. Meet our technical partners, publication partners, and organizing partners who make this international conference possible.",
   keywords: [
     "Conference Partners",
     "Technical Partners",

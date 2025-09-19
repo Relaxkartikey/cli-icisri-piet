@@ -30,7 +30,7 @@ export const Footer = () => {
           <div className="space-y-6 lg:col-span-2">
             <h3 className="text-white text-xl font-bold mb-6">About ICISRI</h3>
             <p className="text-[#BCBCBC] leading-relaxed">
-              The International Conference on Innovations in Semiconductor Research and IoT (ICISRI-2025) 
+              The International Conference on Innovations in Semiconductor Research and IoT (ICISRI-2026) 
               brings together researchers, academicians, and industry experts to explore cutting-edge 
               developments in semiconductor technology and Internet of Things applications.
             </p>
@@ -87,7 +87,7 @@ export const Footer = () => {
         {/* Copyright Bar */}
         <div className="border-t border-[#333] pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <p className="text-[#BCBCBC] text-center md:text-left">© 2025 Poornima Institute of Engineering and Technology</p>
+            <p className="text-[#BCBCBC] text-center md:text-left">© 2026 Poornima Institute of Engineering and Technology</p>
             <p className="text-[#BCBCBC] text-center md:text-right">
               Developed By{" "}
               <a 

@@ -1,24 +1,24 @@
-﻿## <a name="_fpiob2144k9z"></a>**🌐 ICISRI-2025: International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT**
-### <a name="_dpoz4p7c7r5y"></a>**📌 What is ICISRI-2025?**
-ICISRI-2025 is a premier international conference dedicated to exploring **intelligent systems** and their integration with **semiconductor technologies** in the domains of **robotics** and the **Internet of Things (IoT)**. It serves as a platform for researchers, academics, and industry professionals to share their innovations, research findings, and practical solutions in these transformative fields.
+﻿## <a name="_fpiob2144k9z"></a>**🌐 ICISRI-2026: International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT**
+### <a name="_dpoz4p7c7r5y"></a>**📌 What is ICISRI-2026?**
+ICISRI-2026 is a premier international conference dedicated to exploring **intelligent systems** and their integration with **semiconductor technologies** in the domains of **robotics** and the **Internet of Things (IoT)**. It serves as a platform for researchers, academics, and industry professionals to share their innovations, research findings, and practical solutions in these transformative fields.
 
 -----
-### <a name="_ulrbmvp52o8"></a>**🎯 Objective of ICISRI-2025**
+### <a name="_ulrbmvp52o8"></a>**🎯 Objective of ICISRI-2026**
 - To promote **knowledge exchange** between academia and industry.
 - To **advance semiconductor technologies** for robotics and IoT applications.
 - To **foster interdisciplinary collaboration** among researchers, engineers, and practitioners.
 - To **address real-world challenges** in intelligent systems and embedded technologies.
 - To offer **networking opportunities** and stimulate cross-domain partnerships.
 -----
-### <a name="_tbmetsco2jd9"></a>**🔍 Motivation Behind ICISRI-2025**
-The motivation for organizing ICISRI-2025 stems from the increasing relevance of **intelligent systems**, **semiconductor innovation**, **robotics**, and **IoT** across industries. This conference aims to:
+### <a name="_tbmetsco2jd9"></a>**🔍 Motivation Behind ICISRI-2026**
+The motivation for organizing ICISRI-2026 stems from the increasing relevance of **intelligent systems**, **semiconductor innovation**, **robotics**, and **IoT** across industries. This conference aims to:
 
 - Accelerate the **development of smarter technologies**.
 - Drive **cutting-edge research** and collaboration.
 - Contribute to a **sustainable, automated, and connected future**.
 -----
 ### <a name="_agfy055576he"></a>**📘 About the Conference**
-**2nd International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT (ICISRI-2025)** is a flagship event focused on the intersection of smart technologies and semiconductor science. The conference will feature:
+**2nd International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT (ICISRI-2026)** is a flagship event focused on the intersection of smart technologies and semiconductor science. The conference will feature:
 
 - **Key themes**: Semiconductor devices, intelligent control, edge computing, IoT systems, robotics, embedded systems, machine learning, cyber-physical systems, and ethical implications.
 - **Applications**: Use-cases across **manufacturing**, **healthcare**, **agriculture**, **smart cities**, and **smart homes**.
@@ -74,8 +74,8 @@ The **IoT Department at PIET**, launched in **2023–24**, aims to create innova
 ` `📧 Email: icisri@poornima.org
 ` `📞 Phone: +91-9785487195
 
-## <a name="_ze058cc0hxvx"></a>**🏛️ Conference Committees @ ICISRI-2025**
-The success of **ICISRI-2025** is driven by a distinguished group of academic leaders, researchers, and professionals from premier institutions across the globe. The organizing structure ensures high-quality research, diverse insights, and seamless execution of the conference.
+## <a name="_ze058cc0hxvx"></a>**🏛️ Conference Committees @ ICISRI-2026**
+The success of **ICISRI-2026** is driven by a distinguished group of academic leaders, researchers, and professionals from premier institutions across the globe. The organizing structure ensures high-quality research, diverse insights, and seamless execution of the conference.
 
 -----
 ### <a name="_m3rym19uihiq"></a>**🏅 Patrons**
@@ -244,7 +244,7 @@ Authors are invited to submit **full-text papers in PDF format**, including **re
 - **Registration Confirmation:** Subject to receipt of **full payment**.
 -----
 ## <a name="_zd8vx1nalyxq"></a>**📚 Topics / Tracks**
-ICISRI-2025 welcomes high-quality research contributions in **Computer Science**, **IoT**, **Robotics**, and **Semiconductors**. Topics of interest include but are not limited to:
+ICISRI-2026 welcomes high-quality research contributions in **Computer Science**, **IoT**, **Robotics**, and **Semiconductors**. Topics of interest include but are not limited to:
 
 |`  `**Algorithms**|`  `**Neural Networks**|
 | :-: | :-: |
@@ -296,14 +296,14 @@ ICISRI-2025 welcomes high-quality research contributions in **Computer Science**
 
 |**Event**|**Deadline**|
 | :-: | :-: |
-|Extended Full Paper Submission Deadline|**30 October, 2025**|
-|Notification of Acceptance|**5 November, 2025**|
-|Camera-Ready Copy Submission|**8 November, 2025**|
-|Author Registration Deadline|**8 November, 2025**|
-|Conference Dates|**29–30 November, 2025**|
+|Extended Full Paper Submission Deadline|**30 October, 2026**|
+|Notification of Acceptance|**5 March, 2026**|
+|Camera-Ready Copy Submission|**8 March, 2026**|
+|Author Registration Deadline|**8 March, 2026**|
+|Conference Dates|**29–30 March, 2026**|
 
 
-**💳 Registration Fees – ICISRI 2025**
+**💳 Registration Fees – ICISRI 2026**
 
 Participants are requested to **complete the registration by paying the applicable fees** as per their category. Please find the details below:
 ### <a name="_7ynqp1lg65ju"></a>**🏷️ Registration Fee Structure**
@@ -337,9 +337,9 @@ Please make the payment to the following account:
 📌 **Ensure to include your Paper ID or Name in the payment reference** for identification and confirmation.
 
 
-**🎤 Keynote Speakers – ICISRI 2025**
+**🎤 Keynote Speakers – ICISRI 2026**
 
-We are honored to present distinguished keynote speakers who will share their expert insights at the ICISRI-2025 conference:
+We are honored to present distinguished keynote speakers who will share their expert insights at the ICISRI-2026 conference:
 
 -----
 ### <a name="_9gxm6h4lc09g"></a>**🧠 Dr. Ashish Khanna**

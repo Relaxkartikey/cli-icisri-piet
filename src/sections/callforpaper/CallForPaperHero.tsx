@@ -95,7 +95,7 @@ export const CallForPaperHero = () => {
             className="px-4 py-1.5 bg-[#001E80] text-white text-sm rounded-full mb-4 md:mb-6"
             variants={itemVariants}
           >
-            ICISRI 2025
+            ICISRI 2026
           </motion.div>
           
           {/* Main Heading */}

@@ -129,7 +129,7 @@ export const PartnersSection = () => {
           
           <h2 className="section-title mt-5">Our Partners</h2>
           <p className="section-des mt-5">
-            ICISRI-2025 is proudly supported by leading academic and industry partners dedicated to advancing technology research and innovation.
+            ICISRI-2026 is proudly supported by leading academic and industry partners dedicated to advancing technology research and innovation.
           </p>
         </div>
         

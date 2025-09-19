@@ -1,8 +1,8 @@
 {
-  "name": "icisri-2025-conference-website",
+  "name": "icisri-2026-conference-website",
   "version": "0.1.0",
   "private": true,
-  "description": "Official website for ICISRI 2025 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
+  "description": "Official website for ICISRI 2026 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

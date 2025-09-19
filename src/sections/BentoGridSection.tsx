@@ -176,7 +176,7 @@ export function BentoGridSection() {
             <div className="tag">Research Conference</div>
           </div>
 
-          <h2 className="section-title mt-5">Topics @ ICISRI-2025</h2>
+          <h2 className="section-title mt-5">Topics @ ICISRI-2026</h2>
           <p className="section-des mt-5">
             Explore the key technology domains and research areas that will be covered at the International Conference on Innovations in Semiconductor Research and IoT.
           </p>

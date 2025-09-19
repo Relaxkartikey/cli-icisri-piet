@@ -205,23 +205,23 @@ export const CallForPaperContent = () => {
               <div className="text-[#010D3E]/80 leading-relaxed space-y-2">
                 <div className="flex justify-between">
                   <span className="font-medium">Paper Submission:</span>
-                  <span className="text-[#001E80]">30 Oct, 2025</span>
+                  <span className="text-[#001E80]">30 Oct, 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Notification:</span>
-                  <span className="text-[#001E80]">5 Nov, 2025</span>
+                  <span className="text-[#001E80]">5 Nov, 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Camera Ready:</span>
-                  <span className="text-[#001E80]">8 Nov, 2025</span>
+                  <span className="text-[#001E80]">15 Nov, 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Registration:</span>
-                  <span className="text-[#001E80]">8 Nov, 2025</span>
+                  <span className="text-[#001E80]">28 Nov, 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Conference:</span>
-                  <span className="text-[#001E80]">29-30 Nov, 2025</span>
+                  <span className="text-[#001E80]">10-12 Dec, 2026</span>
                 </div>
               </div>
             </div>
