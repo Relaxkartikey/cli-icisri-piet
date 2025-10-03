@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import { BreakingNews } from "../components/BreakingNews";
 
 // Using direct public paths
 const cogImagePath = "/assets/cog.png";
@@ -80,13 +81,17 @@ export const Hero = () => {
   };
 
   return (
-    <section
-      ref={heroRef}
-      className="min-h-screen flex items-center overflow-x-clip relative"
-      style={{ 
-        background: "linear-gradient(180deg, white 0%, #F5F6F9 50%, #EAEDF2 100%)",
-      }}
-    >
+    <>
+      {/* Breaking News Banner */}
+      <BreakingNews />
+      
+      <section
+        ref={heroRef}
+        className="min-h-[85vh] flex items-center overflow-x-clip relative"
+        style={{ 
+          background: "linear-gradient(180deg, white 0%, #F5F6F9 50%, #EAEDF2 100%)",
+        }}
+      >
       {/* Floating decorative elements */}
       <motion.div 
         className="absolute -left-10 top-1/3 opacity-50 hidden md:block" 
@@ -115,7 +120,7 @@ export const Hero = () => {
         />
       </motion.div>
 
-      <div className="container pt-2 pb-12 sm:pt-8 sm:pb-16 md:pt-10 md:pb-20">
+      <div className="container pt-0 pb-8 sm:pt-2 sm:pb-12 md:pt-4 md:pb-16">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
           {/* Left Side - Content */}
           <motion.div 
@@ -255,5 +260,6 @@ export const Hero = () => {
         </motion.div>
       </div>
     </section>
+    </>
   );
 };

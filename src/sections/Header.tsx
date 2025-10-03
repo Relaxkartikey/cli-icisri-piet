@@ -14,6 +14,7 @@ interface HeaderProps {
 
 export const Header = ({ onApplyClick }: HeaderProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isArchiveDropdownOpen, setIsArchiveDropdownOpen] = useState(false);
   const pathname = usePathname();
 
   const toggleMobileMenu = () => {
@@ -71,6 +72,40 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
               <a href="/speakers" className={getLinkClassName("/speakers")}>Speakers</a>
               <a href="/partners" className={getLinkClassName("/partners")}>Partners</a>
               <a href="/registration" className={getLinkClassName("/registration")}>Registration</a>
+              
+              {/* Archive Dropdown */}
+              <div 
+                className="relative"
+                onMouseEnter={() => setIsArchiveDropdownOpen(true)}
+                onMouseLeave={() => setIsArchiveDropdownOpen(false)}
+              >
+                <button className="relative hover:text-white transition-all duration-300 text-white/90 after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:w-0 hover:after:w-full flex items-center gap-1">
+                  Archive
+                  <svg className={`w-3 h-3 transition-transform duration-200 ${isArchiveDropdownOpen ? 'rotate-180' : ''}`} fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </button>
+                
+                {isArchiveDropdownOpen && (
+                  <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50">
+                    <a 
+                      href="https://www.icisri.poornima.org/index.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-2 text-gray-700 hover:bg-[#F8FAFF] hover:text-[#001E80] transition-colors text-sm"
+                    >
+                      ICISRI 2025
+                    </a>
+                    <a 
+                      href="/"
+                      className="block px-4 py-2 text-gray-700 hover:bg-[#F8FAFF] hover:text-[#001E80] transition-colors text-sm"
+                    >
+                      ICISRI 2026
+                    </a>
+                  </div>
+                )}
+              </div>
+              
               <a href="/contact" className={getLinkClassName("/contact")}>Contact</a>
               <button 
                 onClick={onApplyClick}
@@ -142,6 +177,28 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
                 >
                   Contact
                 </a>
+                
+                {/* Archive Section for Mobile */}
+                <div className="border-t border-white/20 pt-3 mt-3">
+                  <div className="text-white/70 text-xs font-medium mb-2 px-2">Archive</div>
+                  <a 
+                    href="https://www.icisri.poornima.org/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white/90 hover:text-white transition-colors py-1.5 text-sm block pl-4"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    ICISRI 2025
+                  </a>
+                  <a 
+                    href="/"
+                    className="text-white/90 hover:text-white transition-colors py-1.5 text-sm block pl-4"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    ICISRI 2026
+                  </a>
+                </div>
+                
                 <button 
                   onClick={() => {
                     onApplyClick?.();
