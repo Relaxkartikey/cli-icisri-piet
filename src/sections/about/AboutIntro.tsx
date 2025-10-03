@@ -89,11 +89,11 @@ export const AboutIntro = () => {
         >
           <div className="text-[#010D3E]/80 leading-relaxed text-lg text-justify space-y-6">
             <p>
-              The International Conference on Intelligent Systems using Semiconductors for Robotics and IoT (ICSRI) is a premier event uniting experts in academia and industry to explore cutting-edge advancements in intelligent systems, semiconductor technology, robotics, and the Internet of Things (IoT). With a focus on integrating intelligent systems with semiconductor tech for robotics and IoT, ICSRI covers diverse topics such as semiconductor devices, intelligent control systems, robotics, IoT architectures, edge computing, and human-robot interaction.
+              The International Conference on Intelligent Systems using Semiconductors for Robotics and IoT (ICISRI) is a premier event uniting experts in academia and industry to explore cutting-edge advancements in intelligent systems, semiconductor technology, robotics, and the Internet of Things (IoT). With a focus on integrating intelligent systems with semiconductor tech for robotics and IoT, ICISRI covers diverse topics such as semiconductor devices, intelligent control systems, robotics, IoT architectures, edge computing, and human-robot interaction.
             </p>
             
             <p>
-              ICSRI serves as a platform for researchers to present their findings, share insights, and engage in discussions on topics crucial to the development of intelligent systems. From the latest semiconductor materials and fabrication processes to advanced control algorithms and machine learning techniques, participants delve into innovations driving autonomy, adaptability, and intelligence in robotics and IoT.
+              ICISRI serves as a platform for researchers to present their findings, share insights, and engage in discussions on topics crucial to the development of intelligent systems. From the latest semiconductor materials and fabrication processes to advanced control algorithms and machine learning techniques, participants delve into innovations driving autonomy, adaptability, and intelligence in robotics and IoT.
             </p>
             
             <p>
@@ -101,7 +101,7 @@ export const AboutIntro = () => {
             </p>
             
             <p>
-              Through keynote speeches, paper presentations, workshops, and exhibitions, ICSRI fosters interdisciplinary collaboration and innovation, shaping the future of intelligent systems, robotics, and IoT. It provides a vital forum for experts to exchange ideas, forge partnerships, and contribute to the advancement of these rapidly evolving fields.
+              Through keynote speeches, paper presentations, workshops, and exhibitions, ICISRI fosters interdisciplinary collaboration and innovation, shaping the future of intelligent systems, robotics, and IoT. It provides a vital forum for experts to exchange ideas, forge partnerships, and contribute to the advancement of these rapidly evolving fields.
             </p>
           </div>
         </motion.div>

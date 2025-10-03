@@ -140,8 +140,8 @@ export default function RootLayout({
     "name": "ICISRI 2026 - International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT",
     "description": "International Conference on Intelligent Systems Using Semiconductors for Robotics and IoT at PIET, Jaipur. Submit your research papers and join leading experts from around the world.",
     "url": "https://icisri.piet.poornima.org",
-    "startDate": "2026-03-15",
-    "endDate": "2026-03-17",
+    "startDate": "2026-04-10",
+    "endDate": "2026-04-11",
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {

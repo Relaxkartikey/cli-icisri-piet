@@ -13,11 +13,11 @@ interface SubmitPaperPopupProps {
 export const SubmitPaperPopup = ({ isOpen, onClose }: SubmitPaperPopupProps) => {
 
   const importantDates = [
-    { event: "Paper Submission", date: "30 Oct, 2026" },
-    { event: "Notification", date: "5 Nov, 2026" },
-    { event: "Camera Ready", date: "8 Nov, 2026" },
-    { event: "Registration", date: "8 Nov, 2026" },
-    { event: "Conference", date: "29-30 Nov, 2026" }
+    { event: "Paper Submission", date: "10 March, 2026" },
+    { event: "Notification", date: "20 March, 2026" },
+    { event: "Camera Ready", date: "25 March, 2026" },
+    { event: "Registration", date: "25 March, 2026" },
+    { event: "Conference", date: "10-11 April, 2026" }
   ];
 
   const submissionSteps = [

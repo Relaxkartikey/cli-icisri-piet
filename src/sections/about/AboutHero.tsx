@@ -111,7 +111,7 @@ export const AboutHero = () => {
             className="mt-4 md:mt-6 max-w-4xl text-[#010D3E]/80 text-lg sm:text-xl md:text-2xl font-medium px-4"
             variants={itemVariants}
           >
-            1<sup>st</sup> International Conference on Intelligent Systems using Semiconductors for Robotics and IoT
+            2<sup>nd</sup> International Conference on Intelligent Systems using Semiconductors for Robotics and IoT
           </motion.div>
           
           {/* Tagline */}

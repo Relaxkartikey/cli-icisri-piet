@@ -158,8 +158,8 @@ export const Hero = () => {
             >
               {/* Date Card */}
               <div className="bg-gradient-to-r from-white to-[#F8FAFF] rounded-xl shadow-[0_4px_12px_rgba(0,30,128,0.15)] border border-[#E1E7FF] py-3 px-5 flex items-center">
-                <div className="text-[#001E80] font-semibold mr-2 text-sm">March 2026:</div>
-                <div className="text-[#010D3E] text-sm">9th-10th (Thu & Fri)</div>
+                <div className="text-[#001E80] font-semibold mr-2 text-sm">April 2026:</div>
+                <div className="text-[#010D3E] text-sm">10th-11th (Thu & Fri)</div>
               </div>
               
               {/* Register Button */}

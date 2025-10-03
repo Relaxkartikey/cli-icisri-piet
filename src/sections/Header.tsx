@@ -38,6 +38,7 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex gap-6 text-white/90 items-center">
+              <a href="/" className="hover:text-white transition-colors">Home</a>
               <a href="/about" className="hover:text-white transition-colors">About</a>
               <a href="/committees" className="hover:text-white transition-colors">Committees</a>
               <a href="/callforpaper" className="hover:text-white transition-colors">Call for Paper</a>
@@ -58,6 +59,13 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
           {isMobileMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 border-t border-white/10">
               <nav className="flex flex-col gap-4 pt-4">
+                <a 
+                  href="/" 
+                  className="text-white/90 hover:text-white transition-colors py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Home
+                </a>
                 <a 
                   href="/about" 
                   className="text-white/90 hover:text-white transition-colors py-2"
