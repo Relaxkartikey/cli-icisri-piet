@@ -42,7 +42,7 @@ export default function ComingSoon() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            We're working on something amazing!
+            We&apos;re working on something amazing!
           </motion.p>
 
           {/* Back to Home Button */}
