@@ -20,11 +20,11 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
 
   return (
     <header className="sticky top-0 backdrop-blur-sm z-20 bg-[#001E80]/95 border-b border-white/10">
-      <div className="pt-4 pb-4 my-0">
+      <div className="pt-3 pb-3 my-0">
         <div className="container">
           <div className="flex items-center justify-between">
-              <a href="/" className="bg-white text-[#001E80] px-4 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors" style={{ minWidth: 180, minHeight: 60 }}>
-                <Image src={logoPath} alt="logo" height={60} width={180} style={{ objectFit: 'contain' }} />
+              <a href="/" className="bg-white text-[#001E80] px-3 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors" style={{ minWidth: 140, minHeight: 45 }}>
+                <Image src={logoPath} alt="logo" height={45} width={140} style={{ objectFit: 'contain' }} />
               </a>
             
             {/* Mobile Menu Button */}
@@ -37,7 +37,7 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
             </button>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex gap-6 text-white/90 items-center">
+            <nav className="hidden lg:flex gap-4 text-white/90 items-center text-sm">
               <a href="/" className="hover:text-white transition-colors">Home</a>
               <a href="/about" className="hover:text-white transition-colors">About</a>
               <a href="/committees" className="hover:text-white transition-colors">Committees</a>
@@ -47,63 +47,63 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
               <a href="/contact" className="hover:text-white transition-colors">Contact</a>
               <button 
                 onClick={onApplyClick}
-                className="bg-white text-[#001E80] px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors"
+                className="bg-white text-[#001E80] px-3 py-1.5 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors text-sm"
               >
                 Apply Now
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+                <Image src={arrowRightPath} alt="Arrow right" width={14} height={14} className="h-3.5 w-3.5 ml-1.5" />
               </button>
             </nav>
           </div>
 
           {/* Mobile Navigation Dropdown */}
           {isMobileMenuOpen && (
-            <div className="lg:hidden mt-4 pb-4 border-t border-white/10">
-              <nav className="flex flex-col gap-4 pt-4">
+            <div className="lg:hidden mt-3 pb-3 border-t border-white/10">
+              <nav className="flex flex-col gap-3 pt-3">
                 <a 
                   href="/" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
                 </a>
                 <a 
                   href="/about" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About
                 </a>
                 <a 
                   href="/committees" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Committees
                 </a>
                 <a 
                   href="/callforpaper" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Call for Paper
                 </a>
                 <a 
                   href="/speakers" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Speakers
                 </a>
                 <a 
                   href="/partners" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Partners
                 </a>
                 <a 
                   href="/contact" 
-                  className="text-white/90 hover:text-white transition-colors py-2"
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Contact
@@ -113,10 +113,10 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
                     onApplyClick?.();
                     setIsMobileMenuOpen(false);
                   }}
-                  className="bg-white text-[#001E80] px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors mt-2 w-fit"
+                  className="bg-white text-[#001E80] px-3 py-1.5 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors mt-1.5 w-fit text-sm"
                 >
                   Apply Now
-                  <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
+                  <Image src={arrowRightPath} alt="Arrow right" width={14} height={14} className="h-3.5 w-3.5 ml-1.5" />
                 </button>
               </nav>
             </div>
