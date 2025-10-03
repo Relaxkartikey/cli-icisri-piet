@@ -68,15 +68,21 @@ export const RegistrationContent = () => {
               </p>
               
               <div className="flex flex-col gap-3 sm:gap-4 sm:flex-row">
-                <button className="bg-[#001E80] text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors text-sm sm:text-base">
+                <a
+                  href="/coming-soon"
+                  className="bg-[#001E80] text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors text-sm sm:text-base"
+                >
                   Paper Template
                   <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
-                </button>
+                </a>
                 
-                <button className="bg-black text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/90 transition-colors text-sm sm:text-base">
+                <a
+                  href="/coming-soon"
+                  className="bg-black text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/90 transition-colors text-sm sm:text-base"
+                >
                   Paper Submission Link
                   <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>
@@ -124,10 +130,13 @@ export const RegistrationContent = () => {
                   <h3 className="text-xl font-semibold mb-2">Copy Right Form CRC</h3>
                   <p className="text-white/90">Download and submit the copyright form</p>
                 </div>
-                <button className="bg-white text-[#001E80] px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors">
+                <a
+                  href="/coming-soon"
+                  className="bg-white text-[#001E80] px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors"
+                >
                   Download CRC Form
                   <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>

@@ -114,16 +114,20 @@ export const SubmitPaperPopup = ({ isOpen, onClose }: SubmitPaperPopupProps) => 
 
             {/* Action Buttons - Fixed at bottom */}
             <div className="flex flex-col sm:flex-row gap-3 p-4 sm:p-5 pt-0 flex-shrink-0">
-              <button className="flex-1 bg-gradient-to-r from-[#001E80] to-[#183EC2] text-white px-4 py-3 rounded-lg font-semibold hover:shadow-[0_6px_20px_rgba(0,30,128,0.3)] transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 text-sm">
+              <a
+                href="/coming-soon"
+                className="flex-1 bg-gradient-to-r from-[#001E80] to-[#183EC2] text-white px-4 py-3 rounded-lg font-semibold hover:shadow-[0_6px_20px_rgba(0,30,128,0.3)] transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 text-sm"
+              >
                 Submit Paper Now
                 <Image src={arrowRightPath} alt="Arrow right" width={14} height={14} className="h-3.5 w-3.5 filter invert" />
-              </button>
-              <button 
+              </a>
+              <a
+                href="/callforpaper"
                 onClick={onClose}
-                className="flex-1 bg-white text-[#001E80] border-2 border-[#001E80] px-4 py-3 rounded-lg font-semibold hover:bg-[#F8FAFF] transition-all duration-300 text-sm"
+                className="flex-1 bg-white text-[#001E80] border-2 border-[#001E80] px-4 py-3 rounded-lg font-semibold hover:bg-[#F8FAFF] transition-all duration-300 text-sm text-center"
               >
                 View Guidelines
-              </button>
+              </a>
             </div>
           </motion.div>
         </motion.div>

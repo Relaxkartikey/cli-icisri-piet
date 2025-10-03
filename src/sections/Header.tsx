@@ -9,10 +9,10 @@ const logoPath = "/assets/pics/logo-ici.png";
 const menuPath = "/assets/menu.svg";
 
 interface HeaderProps {
-  onApplyClick?: () => void;
+  // No props needed anymore since Register Now links directly to registration page
 }
 
-export const Header = ({ onApplyClick }: HeaderProps) => {
+export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isArchiveDropdownOpen, setIsArchiveDropdownOpen] = useState(false);
   const pathname = usePathname();
@@ -71,7 +71,6 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
               <a href="/callforpaper" className={getLinkClassName("/callforpaper")}>Call for Paper</a>
               <a href="/speakers" className={getLinkClassName("/speakers")}>Speakers</a>
               <a href="/partners" className={getLinkClassName("/partners")}>Partners</a>
-              <a href="/registration" className={getLinkClassName("/registration")}>Registration</a>
               
               {/* Archive Dropdown */}
               <div 
@@ -107,13 +106,13 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
               </div>
               
               <a href="/contact" className={getLinkClassName("/contact")}>Contact</a>
-              <button 
-                onClick={onApplyClick}
+              <a
+                href="/registration"
                 className="bg-white text-[#001E80] px-3 py-1.5 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors text-sm"
               >
-                Apply Now
+                Register Now
                 <Image src={arrowRightPath} alt="Arrow right" width={14} height={14} className="h-3.5 w-3.5 ml-1.5" />
-              </button>
+              </a>
             </nav>
           </div>
 
@@ -164,13 +163,6 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
                   Partners
                 </a>
                 <a 
-                  href="/registration" 
-                  className={getMobileLinkClassName("/registration")}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Registration
-                </a>
-                <a 
                   href="/contact" 
                   className={getMobileLinkClassName("/contact")}
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -199,16 +191,14 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
                   </a>
                 </div>
                 
-                <button 
-                  onClick={() => {
-                    onApplyClick?.();
-                    setIsMobileMenuOpen(false);
-                  }}
+                <a
+                  href="/registration"
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className="bg-white text-[#001E80] px-3 py-1.5 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors mt-1.5 w-fit text-sm"
                 >
-                  Apply Now
+                  Register Now
                   <Image src={arrowRightPath} alt="Arrow right" width={14} height={14} className="h-3.5 w-3.5 ml-1.5" />
-                </button>
+                </a>
               </nav>
             </div>
           )}

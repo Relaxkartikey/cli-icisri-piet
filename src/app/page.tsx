@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import { BentoGridSection } from "@/sections/BentoGridSection";
-import { CallToAction } from "@/sections/CallToAction";
 import { ContactSection } from "@/sections/ContactSection";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
@@ -27,13 +26,9 @@ export default function Home() {
     setIsPopupOpen(false);
   };
 
-  const handleOpenPopup = () => {
-    setIsPopupOpen(true);
-  };
-
   return (
     <div>
-      <Header onApplyClick={handleOpenPopup} />
+      <Header />
       <Hero />
       <IntroductionSection />
       <BentoGridSection />
