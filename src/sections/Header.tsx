@@ -44,6 +44,7 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
               <a href="/callforpaper" className="hover:text-white transition-colors">Call for Paper</a>
               <a href="/speakers" className="hover:text-white transition-colors">Speakers</a>
               <a href="/partners" className="hover:text-white transition-colors">Partners</a>
+              <a href="/registration" className="hover:text-white transition-colors">Registration</a>
               <a href="/contact" className="hover:text-white transition-colors">Contact</a>
               <button 
                 onClick={onApplyClick}
@@ -100,6 +101,13 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Partners
+                </a>
+                <a 
+                  href="/registration" 
+                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Registration
                 </a>
                 <a 
                   href="/contact" 
