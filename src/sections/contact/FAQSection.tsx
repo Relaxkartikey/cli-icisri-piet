@@ -31,7 +31,7 @@ export const FAQSection = () => (
           },
           {
             question: "What topics are covered in the conference?",
-            answer: "ICISRI-2026 covers IoT applications, semiconductor research, robotics, automation, cloud computing, cyber forensics, and high-performance computing."
+            answer: "ICISRI-2026 covers IoT applications, semiconductor research, robotics, automation, cloud computing, Computational Intelligence , and high-performance computing."
           }
         ].map((faq, index) => (
           <motion.div

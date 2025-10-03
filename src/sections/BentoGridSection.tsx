@@ -155,7 +155,7 @@ export function BentoGridSection() {
       index: 3
     },
     {
-      title: "Cyber Forensics",
+      title: "Computational Intelligence ",
       description: "Computer forensics is a branch of digital forensic science pertaining to evidence found in computers and digital storage media.",
       icon: <FaLaptopCode className="h-8 w-8 text-[#001E80]" />,
       index: 4
