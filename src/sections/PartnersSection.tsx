@@ -7,7 +7,7 @@ import Image from "next/image";
 // Using direct public path
 const ieeeLogoPath = "/assets/pics/ieee.png";
 const acmLogoPath = "/assets/pics/acm.png";
-const isteLogoPath = "/assets/pics/iste.png";
+const ieteLogoPath = "/assets/pics/iete.png";
 const crc = "/assets/pics/crc.png";
 const taru = "/assets/pics/taru.png";
 const idea = "/assets/pics/idea.png";
@@ -26,9 +26,9 @@ const partners: Partner[] = [
   // Technical Partners
   {
     id: "tech-1",
-    name: "ISTE",
-    bio: "Indian Society for Technical Education - Promoting technical education in India through quality programs.",
-    logo: isteLogoPath,
+    name: "IETE",
+    bio: "Institution of Electronics and Telecommunication Engineers - Promoting electronics and telecommunication engineering in India.",
+    logo: ieteLogoPath,
     type: "technical",
   },
   {
@@ -63,9 +63,9 @@ const partners: Partner[] = [
   },
   {
     id: "pub-3",
-    name: "IJTE-ISTE Publication",
+    name: "IETE Publication",
     bio: "International Journal of Technical Education specializing in educational technology research.",
-    logo: isteLogoPath,
+    logo: ieteLogoPath,
     type: "publication",
   },
   

@@ -5,7 +5,7 @@ import { FaBook } from "react-icons/fa";
 
 // Using direct public path
 const crc = "/assets/pics/crc.png";
-const iste = "/assets/pics/iste.png";
+const iete = "/assets/pics/iete.png";
 const taru = "/assets/pics/taru.png";
 
 type PartnerType = "technical" | "publication" | "organizing";
@@ -41,10 +41,10 @@ const publicationPartners: Partner[] = [
   },
   {
     id: "pub-3",
-    name: "IJTE-ISTE Publication",
+    name: "IETE Publication",
     bio: "International Journal of Technical Education specializing in educational technology research.",
-    description: "The International Journal of Technical Education (IJTE) by ISTE is a peer-reviewed publication dedicated to advancing technical education research and practice. The journal publishes original research articles, case studies, and reviews that contribute to the understanding and improvement of technical education methodologies, curriculum development, and educational technology applications.",
-    logo: iste,
+    description: "The International Journal of Technical Education (IJTE) by IETE is a peer-reviewed publication dedicated to advancing technical education research and practice. The journal publishes original research articles, case studies, and reviews that contribute to the understanding and improvement of technical education methodologies, curriculum development, and educational technology applications.",
+    logo: iete,
     type: "publication",
     website: "#"
   }

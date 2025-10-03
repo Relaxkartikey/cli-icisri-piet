@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaUniversity } from "react-icons/fa";
 
 // Using direct public path
-const isteLogoPath = "/assets/pics/iste.png";
+const ieteLogoPath = "/assets/pics/iete.png";
 const ieeeLogoPath = "/assets/pics/ieee.png";
 const acmLogoPath = "/assets/pics/acm.png";
 
@@ -24,12 +24,12 @@ interface Partner {
 const technicalPartners: Partner[] = [
   {
     id: "tech-1",
-    name: "ISTE",
-    bio: "Indian Society for Technical Education - Promoting technical education in India through quality programs.",
-    description: "The Indian Society for Technical Education (ISTE) is a National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. ISTE conducts various programs for the development of Technical Education and to maintain the quality and relevance of technical education.",
-    logo: isteLogoPath,
+    name: "IETE",
+    bio: "Institution of Electronics and Telecommunication Engineers - Promoting electronics and telecommunication engineering in India.",
+    description: "The Institution of Electronics and Telecommunication Engineers (IETE) is a National Professional non-profit making Society for the Electronics and Telecommunication Engineering community in our country with the motto of advancing electronics, telecommunications, computers, and information technology. IETE conducts various programs for the development of Technical Education and to maintain the quality and relevance of technical education.",
+    logo: ieteLogoPath,
     type: "technical",
-    website: "https://www.isteonline.in/"
+    website: "https://www.iete.org/"
   },
   {
     id: "tech-2",
