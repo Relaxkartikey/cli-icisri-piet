@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 // Using direct public paths
@@ -13,9 +14,34 @@ interface HeaderProps {
 
 export const Header = ({ onApplyClick }: HeaderProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const isActivePage = (path: string) => {
+    if (path === "/" && pathname === "/") return true;
+    if (path !== "/" && pathname.startsWith(path)) return true;
+    return false;
+  };
+
+  const getLinkClassName = (path: string) => {
+    const isActive = isActivePage(path);
+    return `relative hover:text-white transition-all duration-300 ${
+      isActive ? 'text-white' : 'text-white/90'
+    } after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 ${
+      isActive ? 'after:w-full' : 'after:w-0 hover:after:w-full'
+    }`;
+  };
+
+  const getMobileLinkClassName = (path: string) => {
+    const isActive = isActivePage(path);
+    return `relative hover:text-white transition-all duration-300 py-1.5 text-sm ${
+      isActive ? 'text-white' : 'text-white/90'
+    } after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 ${
+      isActive ? 'after:w-full' : 'after:w-0 hover:after:w-full'
+    }`;
   };
 
   return (
@@ -38,14 +64,14 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex gap-4 text-white/90 items-center text-sm">
-              <a href="/" className="hover:text-white transition-colors">Home</a>
-              <a href="/about" className="hover:text-white transition-colors">About</a>
-              <a href="/committees" className="hover:text-white transition-colors">Committees</a>
-              <a href="/callforpaper" className="hover:text-white transition-colors">Call for Paper</a>
-              <a href="/speakers" className="hover:text-white transition-colors">Speakers</a>
-              <a href="/partners" className="hover:text-white transition-colors">Partners</a>
-              <a href="/registration" className="hover:text-white transition-colors">Registration</a>
-              <a href="/contact" className="hover:text-white transition-colors">Contact</a>
+              <a href="/" className={getLinkClassName("/")}>Home</a>
+              <a href="/about" className={getLinkClassName("/about")}>About</a>
+              <a href="/committees" className={getLinkClassName("/committees")}>Committees</a>
+              <a href="/callforpaper" className={getLinkClassName("/callforpaper")}>Call for Paper</a>
+              <a href="/speakers" className={getLinkClassName("/speakers")}>Speakers</a>
+              <a href="/partners" className={getLinkClassName("/partners")}>Partners</a>
+              <a href="/registration" className={getLinkClassName("/registration")}>Registration</a>
+              <a href="/contact" className={getLinkClassName("/contact")}>Contact</a>
               <button 
                 onClick={onApplyClick}
                 className="bg-white text-[#001E80] px-3 py-1.5 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors text-sm"
@@ -62,56 +88,56 @@ export const Header = ({ onApplyClick }: HeaderProps) => {
               <nav className="flex flex-col gap-3 pt-3">
                 <a 
                   href="/" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
                 </a>
                 <a 
                   href="/about" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/about")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About
                 </a>
                 <a 
                   href="/committees" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/committees")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Committees
                 </a>
                 <a 
                   href="/callforpaper" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/callforpaper")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Call for Paper
                 </a>
                 <a 
                   href="/speakers" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/speakers")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Speakers
                 </a>
                 <a 
                   href="/partners" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/partners")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Partners
                 </a>
                 <a 
                   href="/registration" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/registration")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Registration
                 </a>
                 <a 
                   href="/contact" 
-                  className="text-white/90 hover:text-white transition-colors py-1.5 text-sm"
+                  className={getMobileLinkClassName("/contact")}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Contact
