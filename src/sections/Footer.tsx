@@ -57,7 +57,7 @@ export const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-white text-xl font-bold mb-6">Website</h3>
             <nav className="flex flex-col gap-4">
-              <Link href="/sitemap" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Sitemap</Link>
+              <Link href="/sitemap.xml" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Sitemap</Link>
               <Link href="/contact" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Contact</Link>
               <Link href="/report" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Report</Link>
               <a href="https://github.com/relaxkartikey" target="_blank" rel="noopener noreferrer" className="text-[#BCBCBC] hover:text-white transition-colors duration-300">Developer</a>
