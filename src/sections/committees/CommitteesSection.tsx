@@ -103,7 +103,7 @@ const committeeData = {
       id: 14,
       name: "Dr. Preet Yadav",
       role: "IEEE Delhi Section",
-      organization: ""
+      organization: "Faculty & IEEE Member"
     }
   ],
   publicityChair: [
@@ -131,7 +131,7 @@ const committeeData = {
       id: 18,
       name: "Mr. Vishal Kothari",
       role: "Logistics & Hospitality",
-      organization: ""
+      organization: "PIET, Jaipur"
     }
   ],
   accommodationTransportation: [
@@ -139,13 +139,13 @@ const committeeData = {
       id: 19,
       name: "Laxman Singh Chauhan",
       role: "Accommodation & Transportation",
-      organization: ""
+      organization: "PIET, Jaipur"
     },
     {
       id: 20,
       name: "Ms. Sameeksha",
       role: "Accommodation & Transportation",
-      organization: ""
+      organization: "PIET, Jaipur"
     }
   ],
   technicalProgram: [
@@ -243,15 +243,15 @@ const committeeData = {
     },
     {
       id: 36,
-      name: "Ashish",
+      name: "Ashish Laddha",
       role: "Editorial Board Member",
-      organization: ""
+      organization: "PIET, Jaipur"
     },
     {
       id: 37,
-      name: "Ritam",
+      name: "Dr. Ritam Dutta",
       role: "Editorial Board Member",
-      organization: ""
+      organization: "PIET, Jaipur"
     }
   ],
   internationalSteering: [
@@ -329,31 +329,31 @@ const committeeData = {
       id: 49,
       name: "Mr. Vishal Kothari",
       role: "Organizing Committee",
-      organization: ""
+      organization: "PIET, Jaipur"
     },
     {
       id: 50,
       name: "Ms. Samiksha Agarwal",
       role: "Organizing Committee",
-      organization: ""
+      organization: "PIET, Jaipur"
     },
     {
       id: 51,
       name: "Vinod Kumar Gurjar",
       role: "Organizing Committee",
-      organization: ""
+      organization: "PIET, Jaipur"
     },
     {
       id: 52,
       name: "Laxman Singh Chauhan",
       role: "Organizing Committee",
-      organization: ""
+      organization: "PIET, Jaipur"
     },
     {
       id: 53,
       name: "Surendra Kumar Sharma",
       role: "Organizing Committee",
-      organization: ""
+      organization: "PIET, Jaipur"
     }
   ],
   localAdvisory: [
@@ -381,7 +381,7 @@ const committeeData = {
       id: 57,
       name: "AIP Conference Proceedings",
       role: "Publication Partner",
-      organization: ""
+      organization: "AIP Publishing"
     }
   ]
 };
