@@ -7,6 +7,7 @@ import { FaBook } from "react-icons/fa";
 const crc = "/assets/pics/crc.png";
 const iete = "/assets/pics/iete.png";
 const taru = "/assets/pics/taru.png";
+const aip = "/assets/pics/aip.jpg";
 
 type PartnerType = "technical" | "publication" | "organizing";
 
@@ -23,6 +24,15 @@ interface Partner {
 const publicationPartners: Partner[] = [
   {
     id: "pub-1",
+    name: "AIP Conference Proceedings",
+    bio: "Premier publisher of scientific conference proceedings from international meetings.",
+    description: "AIP Conference Proceedings program reports the findings presented at scientific meetings from large international conferences to small specialist workshops. With a distinguished history of publishing high-quality research, AIP ensures that groundbreaking discoveries and innovations presented at conferences reach the global scientific community through rigorous peer-review and wide dissemination.",
+    logo: aip,
+    type: "publication",
+    website: "https://aip.scitation.org/journal/apc"
+  },
+  {
+    id: "pub-2",
     name: "Taru Publication",
     bio: "Leading publisher of academic research papers and technical journals.",
     description: "Taru Publication is a distinguished academic publisher specializing in high-quality research publications across various technical and scientific disciplines. With a commitment to advancing knowledge and promoting scholarly excellence, Taru Publication provides a platform for researchers to share their innovative work with the global academic community.",
@@ -31,7 +41,7 @@ const publicationPartners: Partner[] = [
     website: "#"
   },
   {
-    id: "pub-2",
+    id: "pub-3",
     name: "CRC Publication",
     bio: "Premier publisher of technical and scientific resources with global reach.",
     description: "CRC Publication stands as a premier publisher in the technical and scientific publishing landscape, offering comprehensive resources that span multiple disciplines. With decades of experience in academic publishing, CRC Publication maintains rigorous editorial standards and provides authors with extensive support throughout the publication process.",
@@ -40,7 +50,7 @@ const publicationPartners: Partner[] = [
     website: "#"
   },
   {
-    id: "pub-3",
+    id: "pub-4",
     name: "IETE Publication",
     bio: "International Journal of Technical Education specializing in educational technology research.",
     description: "The International Journal of Technical Education (IJTE) by IETE is a peer-reviewed publication dedicated to advancing technical education research and practice. The journal publishes original research articles, case studies, and reviews that contribute to the understanding and improvement of technical education methodologies, curriculum development, and educational technology applications.",
