@@ -11,6 +11,7 @@ const ieteLogoPath = "/assets/pics/iete.png";
 const crc = "/assets/pics/crc.png";
 const taru = "/assets/pics/taru.png";
 const idea = "/assets/pics/idea.png";
+const aip = "/assets/pics/aip.jpg";
 
 type PartnerType = "technical" | "publication" | "organizing";
 
@@ -49,20 +50,27 @@ const partners: Partner[] = [
   // Publication Partners
   {
     id: "pub-1",
+    name: "AIP Conference Proceedings",
+    bio: "Premier publisher of scientific conference proceedings from international meetings to specialist workshops.",
+    logo: aip,
+    type: "publication",
+  },
+  {
+    id: "pub-2",
     name: "Taru Publication",
     bio: "Leading publisher of academic research papers and technical journals.",
     logo: taru,
     type: "publication",
   },
   {
-    id: "pub-2",
+    id: "pub-3",
     name: "CRC Publication",
     bio: "Premier publisher of technical and scientific resources with global reach.",
     logo: crc,
     type: "publication",
   },
   {
-    id: "pub-3",
+    id: "pub-4",
     name: "IETE Publication",
     bio: "International Journal of Technical Education specializing in educational technology research.",
     logo: ieteLogoPath,

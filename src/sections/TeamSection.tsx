@@ -13,42 +13,42 @@ const teamMembers = [
     id: 1,
     name: "Mr. Hari Singh Shekhawat",
     role: "Director (Infrastructure)",
-    bio: "Poornima Group, Jaipur, India",
+    bio: "Poornima Group, Jaipur",
     image: ktlogoPath
   },
   {
     id: 2,
     name: "Mr. MKM Shah",
     role: "Director (Admin & Finance)",
-    bio: "Poornima Group, Jaipur, India",
+    bio: "Poornima Group, Jaipur",
     image: ktlogoPath
   },
   {
     id: 3,
-    name: "Prof.(Dr.) CARLOS M, TRAVIESO-GONZALEZ",
-    role: "General Chair",
-    bio: "Department of Signals & Communication (IDeTIC), University of Las Palmas de Gran Canaria, Las Palmas",
+    name: "Deepak Mathur",
+    role: "Honorary Chair",
+    bio: "",
     image: ktlogoPath
   },
   {
     id: 4,
-    name: "Prof.(Dr.) Dinesh Goyal",
-    role: "Conference Chair",
-    bio: "Principal & Director, PIET, Jaipur, India",
+    name: "Prof. (Dr.) Carlos M. Travieso-Gonzalez",
+    role: "General Chair",
+    bio: "University of Las Palmas de Gran Canaria, Spain",
     image: ktlogoPath
   },
   {
     id: 5,
-    name: "Prof.(Dr.) Payal Bansal",
-    role: "ORGANIZING Chair",
-    bio: "IOT DEPARTMENT, PIET, Jaipur, India",
+    name: "Prof. (Dr.) Dinesh Goyal",
+    role: "Conference Chair",
+    bio: "Principal & Director, PIET, Jaipur",
     image: ktlogoPath
   },
   {
     id: 6,
-    name: "Prof.(Dr) RITAM DUTTA",
-    role: "Convener",
-    bio: "IOT DEPARTMENT, PIET, Jaipur, India",
+    name: "Prof. (Dr.) Payal Bansal",
+    role: "Organizing Chair",
+    bio: "HOD, IoT Department, PIET, Jaipur",
     image: ktlogoPath
   }
 ];
