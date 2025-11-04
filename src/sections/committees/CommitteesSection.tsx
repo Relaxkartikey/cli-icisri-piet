@@ -32,8 +32,8 @@ const committeeData = {
     {
       id: 4,
       name: "Deepak Mathur",
-      role: "",
-      organization: ""
+      role: "Vice President",
+      organization: "IEEE MGA Board"
     }
   ],
   generalChair: [
