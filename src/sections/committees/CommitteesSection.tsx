@@ -32,7 +32,7 @@ const committeeData = {
     {
       id: 4,
       name: "Deepak Mathur",
-      role: "Vice President",
+      role: "Member | Vice President",
       organization: "IEEE MGA Board"
     }
   ],
