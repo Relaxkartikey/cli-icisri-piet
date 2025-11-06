@@ -16,9 +16,9 @@ organisation: Poornima Group, Jaipur
 - position: EMPTY
 - organisation: EMPTY
 
-- name: Deepak Mathur
-position: empty
-organisation: empty
+- name: Dr. MN Hooda //
+position: Director
+organisation: Bharati Vidyapeeth, New Delhi
 
 **General Chair:**
 
@@ -26,7 +26,7 @@ organisation: empty
 position: empty
 organisation: Department of Signals \& Communication (IDeTIC), University of Las Palmas de Gran Canaria, Las Palmas
 
-- name: Dr. MN Hooda
+- name: Dr. MN Hooda //
 position: Director
 organisation: Bharati Vidyapeeth, New Delhi
 
@@ -57,8 +57,8 @@ position: Professor
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Dr Richa Gupta
-position: Assistant Professor, Department of CSE
-organisation: Jamia Hamdard
+position: Assistant Professor, Department of CSE --
+organisation: Jamia Hamdard --
 
 **Publicity Committee:**
 
@@ -70,20 +70,16 @@ organisation: Poornima Institute of Engineering \& Technology, Jaipur
 position: Professor
 organisation: MIT, Moradabad
 
-- name: Dr. Preet yadav
-position: empty
-organisation: empty
-
 **Logistics \& Hospitality Committee:**
 
 - name: Mr. Vishal Kothari
-position: Professor
+position: Professor --
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 **Accomodation \& Transportation Committee:**
 
 - name: Ms. Sameeksha
-position: Assistant Professor
+position: Assistant Professor --
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 **Technical Program Committee:**
@@ -127,15 +123,6 @@ organisation: NIT Silchar
   - name: Ashish Laddha
   position: Assoc. Prof.
   organisation: PIET, Jaipur
-
-  - name: Prof. (Dr.) Milin Tuba
-    position: EMPTY
-    organisation: EMPTY
-
-  - name: Prof. (Dr.) Ahmed Engler
-    position: EMPTY
-    organisation: EMPTY
-
 
 
 **EDITORIAL BOARD:**
