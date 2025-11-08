@@ -251,9 +251,9 @@ const committeeData = {
     },
     {
       id: 37,
-      name: "empty empty",
-      role: "Researcher",
-      organization: "University of Miskolc, Hungary"
+      name: "Milan Tuba",
+      role: "Professor and of Computer Science, Mathematics and Electrical Engineering.",
+      organization: "Singidunum University Belgrade, Serbia"
     },
     {
       id: 38,
