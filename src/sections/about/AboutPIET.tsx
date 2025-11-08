@@ -79,10 +79,15 @@ export const AboutPIET = () => {
                 It boasts specialized labs supported by AICTE and industry funding, including the first IDEA Lab in Rajasthan. PIET emphasizes research, with over 200 SCI & Scopus indexed publications in the last five years, and significant research grants and patents. With a focus on entrepreneurship, its Poornima Business Incubation Cell has nurtured over 25 startups, with 12 registered with government agencies. Additionally, PIET achieves a high placement rate of over 80% with reputed industries, with an average package of Rs. 5.5 lakh per annum.
               </p>
             </div>
-            <button className="mt-6 text-[#001E80] font-medium inline-flex items-center hover:opacity-80 transition-opacity">
+            <a 
+              href="https://piet.poornima.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mt-6 text-[#001E80] font-medium inline-flex items-center hover:opacity-80 transition-opacity"
+            >
               Read More
               <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>

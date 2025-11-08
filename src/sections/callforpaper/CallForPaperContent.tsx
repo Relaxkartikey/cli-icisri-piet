@@ -204,60 +204,30 @@ export const CallForPaperContent = () => {
               <h3 className="text-xl font-semibold text-[#010D3E] mb-4">Important Dates</h3>
               <div className="text-[#010D3E]/80 leading-relaxed space-y-2">
                 <div className="flex justify-between">
-                  <span className="font-medium">Paper Submission:</span>
-                  <span className="text-[#001E80]">10 March, 2026</span>
+                  <span className="font-medium">Paper Submission Start:</span>
+                  <span className="text-[#001E80]">10 Nov, 2025</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-medium">Notification:</span>
-                  <span className="text-[#001E80]">20 March, 2026</span>
+                  <span className="font-medium">Paper Submission Deadline:</span>
+                  <span className="text-[#001E80]">28 Feb, 2026</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-medium">Camera Ready:</span>
+                  <span className="font-medium">Notification of Acceptance:</span>
                   <span className="text-[#001E80]">25 March, 2026</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="font-medium">Camera Ready Paper:</span>
+                  <span className="text-[#001E80]">07 April, 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Registration:</span>
-                  <span className="text-[#001E80]">25 March, 2026</span>
+                  <span className="text-[#001E80]">07 April, 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Conference:</span>
-                  <span className="text-[#001E80]">10-11 April, 2026</span>
+                  <span className="text-[#001E80]">08-09 May, 2026</span>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Formatting Guidelines */}
-          <div className="mt-8 bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1]">
-            <h3 className="text-lg sm:text-xl font-semibold text-[#010D3E] mb-4">Formatting Guidelines</h3>
-            <p className="text-sm sm:text-base text-[#010D3E]/80 leading-relaxed mb-6">
-              ICISRI Conference Proceedings are indexed in a number of services, including these leading databases.
-            </p>
-            
-            <div className="flex flex-col gap-3 sm:gap-4 sm:flex-row">
-              <a
-                href="/coming-soon"
-                className="bg-[#001E80] text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-[#001E80]/90 transition-colors text-sm sm:text-base"
-              >
-                Paper Template
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
-              </a>
-              
-              <a
-                href="/coming-soon"
-                className="bg-black text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-black/90 transition-colors text-sm sm:text-base"
-              >
-                Paper Submission Link
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
-              </a>
-              
-              <a
-                href="/coming-soon"
-                className="bg-emerald-600 text-white px-4 sm:px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-emerald-700 transition-colors text-sm sm:text-base"
-              >
-                Download CRC Form
-                <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2 filter invert" />
-              </a>
             </div>
           </div>
         </motion.div>

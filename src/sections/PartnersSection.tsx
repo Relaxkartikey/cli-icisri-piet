@@ -80,7 +80,7 @@ const partners: Partner[] = [
   // Organizing Partners
   {
     id: "org-1",
-    name: "IDEA LAB Piet",
+    name: "AICTE IDEA Lab, PIET",
     bio: "Innovation, Design, Engineering, and Art Laboratory at Poornima Institute of Engineering & Technology.",
     logo: idea,
     type: "organizing",

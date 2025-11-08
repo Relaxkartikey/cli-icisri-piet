@@ -60,10 +60,15 @@ export const AboutIoTDepartment = () => {
                 Through initiatives like project exhibitions and international conferences, we will provide a platform for students to showcase their innovative projects and engage in research endeavors. Furthermore, our department fosters a culture of continuous learning and skill development through workshops, technical seminars, and industry partnerships, ensuring our students are well-equipped for the challenges of the digital age.
               </p>
             </div>
-            <button className="mt-6 text-[#001E80] font-medium inline-flex items-center hover:opacity-80 transition-opacity">
+            <a 
+              href="https://www.piet.poornima.org/dept_IOT.html" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mt-6 text-[#001E80] font-medium inline-flex items-center hover:opacity-80 transition-opacity"
+            >
               Read More
               <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
-            </button>
+            </a>
           </motion.div>
 
           {/* Image Section */}

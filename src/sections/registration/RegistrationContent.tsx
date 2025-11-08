@@ -96,24 +96,28 @@ export const RegistrationContent = () => {
               <h3 className="text-xl font-semibold text-[#010D3E] mb-4">Important Dates</h3>
               <div className="text-[#010D3E]/80 leading-relaxed space-y-2">
                 <div className="flex justify-between items-center py-2 border-b border-[#F1F1F1]/50">
-                  <span className="font-medium">Last and Extended Full Paper Submission Last Date:</span>
-                  <span className="text-[#001E80] font-semibold">10 March, 2026</span>
+                  <span className="font-medium">Paper Submission Start:</span>
+                  <span className="text-[#001E80] font-semibold">10 Nov, 2025</span>
+                </div>
+                <div className="flex justify-between items-center py-2 border-b border-[#F1F1F1]/50">
+                  <span className="font-medium">Paper Submission Deadline:</span>
+                  <span className="text-[#001E80] font-semibold">28 Feb, 2026</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-[#F1F1F1]/50">
                   <span className="font-medium">Notification of Acceptance:</span>
-                  <span className="text-[#001E80] font-semibold">20 March, 2026</span>
+                  <span className="text-[#001E80] font-semibold">25 March, 2026</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-[#F1F1F1]/50">
-                  <span className="font-medium">Camera Ready Copy:</span>
-                  <span className="text-[#001E80] font-semibold">25 March, 2026</span>
+                  <span className="font-medium">Camera Ready Paper:</span>
+                  <span className="text-[#001E80] font-semibold">07 April, 2026</span>
                 </div>
                 <div className="flex justify-between items-center py-2 border-b border-[#F1F1F1]/50">
                   <span className="font-medium">Registration:</span>
-                  <span className="text-[#001E80] font-semibold">25 March, 2026</span>
+                  <span className="text-[#001E80] font-semibold">07 April, 2026</span>
                 </div>
                 <div className="flex justify-between items-center py-2">
                   <span className="font-medium">Conference Date:</span>
-                  <span className="text-[#001E80] font-semibold">10th-11th April, 2026</span>
+                  <span className="text-[#001E80] font-semibold">08-09 May, 2026</span>
                 </div>
               </div>
             </div>
@@ -127,14 +131,14 @@ export const RegistrationContent = () => {
             <div className="bg-gradient-to-br from-[#001E80] to-[#183EC2] rounded-2xl p-6 sm:p-8 text-white">
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Copy Right Form CRC</h3>
+                  <h3 className="text-xl font-semibold mb-2">Copy Right Form</h3>
                   <p className="text-white/90">Download and submit the copyright form</p>
                 </div>
                 <a
                   href="/coming-soon"
                   className="bg-white text-[#001E80] px-6 py-3 rounded-lg font-medium inline-flex items-center justify-center tracking-tight hover:bg-white/90 transition-colors"
                 >
-                  Download CRC Form
+                  Download form
                   <Image src={arrowRightPath} alt="Arrow right" width={16} height={16} className="h-4 w-4 ml-2" />
                 </a>
               </div>

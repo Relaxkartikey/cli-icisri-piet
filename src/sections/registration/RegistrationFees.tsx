@@ -148,7 +148,7 @@ export const RegistrationFees = () => {
               <div>
                 <h4 className="font-semibold text-blue-800 mb-2">Registration Information</h4>
                 <p className="text-blue-700">
-                  Early Bird rates are available until <strong>10 March, 2026</strong>. 
+                  Early Bird rates are available until <strong>28 Feb, 2026</strong>. 
                   Late registration fees apply after this date. All fees are inclusive of conference materials, meals, and proceedings.
                 </p>
               </div>

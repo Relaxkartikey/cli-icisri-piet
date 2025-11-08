@@ -10,12 +10,12 @@ interface NewsItem {
 const newsItems: NewsItem[] = [
   {
     id: 1,
-    text: "🔥 Early Bird Registration Open Until November 30, 2025 - Save 30%!",
+    text: "🔥 Paper Submission Open from November 10, 2025 - Submit Your Research!",
     isImportant: true
   },
   {
     id: 2,
-    text: "📅 Paper Submission Deadline: January 15, 2026 - Don't Miss Out!"
+    text: "📅 Paper Submission Deadline: February 28, 2026 - Don't Miss Out!"
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const newsItems: NewsItem[] = [
   },
   {
     id: 4,
-    text: "🌟 ICISRI 2026: International Conference on Innovative Solutions for Real-world IoT - April 11-12, 2026"
+    text: "🌟 ICISRI 2026: International Conference on Innovative Solutions for Real-world IoT - May 08-09, 2026"
   },
   {
     id: 5,

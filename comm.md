@@ -209,10 +209,9 @@ organisation: GCETM, OMAN
   position: Assistant Professor
   organisation: IIT Jammu, India
 
-- name: Dr. Shivani Sharma
-  position: Principal Technical Consultant
-  organisation: empty
-
+- name: Dr. Reva Mishra
+  position: Professor
+  organisation: Mody University, Center for online and distance education
 
 **ORGANIZING COMMITTEE:**
 
