@@ -29,17 +29,17 @@ export const AccountDetails = () => {
   const accountDetails = [
     {
       label: "Account Name",
-      value: "POORNIMA INSTITUTE PART ONE",
+      value: "POORNIMA INSTITUTE PART TWO",
       icon: FaUniversity
     },
     {
       label: "Account Number",
-      value: "50200067728610",
+      value: "50200067728688",
       icon: FaCreditCard
     },
     {
       label: "Bank",
-      value: "HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA SITAPURA, JAIPUR",
+      value: "HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA SITAPURA JAIPUR",
       icon: FaUniversity
     },
     {
