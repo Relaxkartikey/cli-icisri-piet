@@ -17,7 +17,7 @@ interface Speaker {
 const speakers: Speaker[] = [
   {
     id: "speaker-1",
-    name: "Dr Ashish khanna",
+    name: "Dr. Ashish Khanna",
     designation: "Associate professor",
     institution: "MAIT, Delhi",
     country: "India",

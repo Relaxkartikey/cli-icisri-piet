@@ -183,7 +183,7 @@ export const Hero = () => {
             >
               <div className="bg-gradient-to-r from-white/80 to-[#F8FAFF]/80 backdrop-blur-sm rounded-xl p-4 text-xs leading-relaxed text-[#010D3E]/80 border border-[#E1E7FF]/50 shadow-[0_2px_8px_rgba(0,30,128,0.08)]">
                 <span className="font-semibold text-[#001E80] mr-1">ICISRI 2026 Final Technical Session Schedule.</span>
-                Registered papers will be published in CRC Press & UGC Care Listed Journal (IJTE)
+                All papers will be peer reviewed. Accepted papers will be published in AIP Proceedings - Scopus Indexed (Approval pending)
               </div>
             </motion.div>
           </motion.div>
