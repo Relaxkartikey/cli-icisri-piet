@@ -25,29 +25,29 @@ const committeeData = {
   honoraryChair: [
     {
       id: 3,
-      name: "International (Leave a blank for now)",
-      role: "",
-      organization: ""
+      name: "Prof. Sheng-Lung Peng",
+      role: "Department of Creative Technologies and Product Design",
+      organization: "National Taipei University of Business, Taiwan"
     },
     {
       id: 4,
-      name: "Deepak Mathur",
-      role: "Member | Vice President",
-      organization: "IEEE MGA Board"
+      name: "Dr. MN Hooda",
+      role: "Director",
+      organization: "Bharati Vidyapeeth, New Delhi"
     }
   ],
   generalChair: [
     {
       id: 5,
       name: "Prof.(Dr.) CARLOS M, TRAVIESO-GONZALEZ",
-      role: "",
-      organization: "Department of Signals & Communication (IDeTIC), University of Las Palmas de Gran Canaria, Las Palmas"
+      role: "Full Professor - Department of Signals & Communication (IDeTIC)",
+      organization: "University of Las Palmas de Gran Canaria, Las Palmas"
     },
     {
       id: 6,
-      name: "Dr. MN Hooda",
-      role: "Director",
-      organization: "Bharati Vidyapeeth, New Delhi"
+      name: "Deepak Mathur",
+      role: "Member | Vice President",
+      organization: "IEEE MGA Board"
     }
   ],
   conferenceChair: [
@@ -60,7 +60,7 @@ const committeeData = {
     {
       id: 8,
       name: "Prof. Rachna Garg",
-      role: "Professor (Electrical Engineering)",
+      role: "Associate Dean (Innovation) and Professor Department of Electronics and Communication Engineering",
       organization: "Delhi Technological University, Delhi"
     }
   ],
@@ -96,7 +96,7 @@ const committeeData = {
     {
       id: 13,
       name: "Dr Madhav Sharma",
-      role: "Associate Professor",
+      role: "Assistant Professor",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
@@ -104,29 +104,23 @@ const committeeData = {
       name: "Prof.(Dr.) RAJEEV KUMAR",
       role: "Professor",
       organization: "MIT, Moradabad"
-    },
-    {
-      id: 15,
-      name: "Dr. Preet yadav",
-      role: "",
-      organization: ""
     }
   ],
   publicityChair: [
     {
-      id: 16,
+      id: 15,
       name: "Dr. Ashish Laddha",
-      role: "Assoc. Professor",
+      role: "Associate Professor",
       organization: "PIET, Jaipur"
     },
     {
-      id: 17,
+      id: 16,
       name: "Prof.(Dr.) RAJEEV KUMAR",
       role: "Professor",
       organization: "MIT, Moradabad"
     },
     {
-      id: 18,
+      id: 17,
       name: "Prof.(Dr.) Igor Jurcic",
       role: "Professor",
       organization: "University of Mostar"
@@ -134,15 +128,15 @@ const committeeData = {
   ],
   logisticsHospitality: [
     {
-      id: 19,
+      id: 18,
       name: "Mr. Vishal Kothari",
-      role: "Professor",
+      role: "Assistant Professor",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     }
   ],
   accommodationTransportation: [
     {
-      id: 20,
+      id: 19,
       name: "Ms. Sameeksha",
       role: "Assistant Professor",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
@@ -150,105 +144,93 @@ const committeeData = {
   ],
   technicalProgram: [
     {
-      id: 21,
+      id: 20,
       name: "Prof (Dr) Sugandha Singh",
       role: "Dean-Faculty of Engineering and Technology and Prof. CSE Department",
       organization: "Guru Gobind Singh University"
     },
     {
-      id: 22,
+      id: 21,
       name: "Dr. Badri N Subudhi",
-      role: "Assoc. Prof.",
+      role: "Associate Professor",
       organization: "IIT Jammu"
     },
     {
-      id: 23,
+      id: 22,
       name: "Dr. Mahendra Kumar",
-      role: "Assoc. Prof.",
+      role: "Associate Professor",
       organization: "NIT JALANDHAR"
     },
     {
-      id: 24,
+      id: 23,
       name: "Dr. Brojo Kishor Mishra",
       role: "Prof. & HOD, CSE",
       organization: "NIST UNIVERSITY"
     },
     {
-      id: 25,
+      id: 24,
       name: "Dr. Ashish Chaudhary",
       role: "Asst. Prof.",
       organization: "NIT Raipur"
     },
     {
-      id: 26,
+      id: 25,
       name: "Dr. O.P Verma",
       role: "Prof & HOD, CSE",
       organization: "DTU, DELHI"
     },
     {
-      id: 27,
+      id: 26,
       name: "Dr. Rajeeb Dey",
       role: "Assoc. Prof.",
       organization: "NIT Silchar"
     },
     {
-      id: 28,
+      id: 27,
       name: "Dr. Nitai Paitya",
       role: "Professor, AI-ML",
       organization: "Amity University, Kolkata"
     },
     {
-      id: 29,
+      id: 28,
       name: "Dr. Suganthi K.",
-      role: "Assoc. Prof.",
+      role: "Associate Professor",
       organization: "SRM Institute of Science & Technology, Chennai"
     },
     {
-      id: 30,
+      id: 29,
       name: "Ashish Laddha",
-      role: "Assoc. Prof.",
+      role: "Associate Professor",
       organization: "PIET, Jaipur"
-    },
-    {
-      id: 31,
-      name: "Prof. (Dr.) Milin Tuba",
-      role: "",
-      organization: ""
-    },
-    {
-      id: 32,
-      name: "Prof. (Dr.) Ahmed Engler",
-      role: "",
-      organization: ""
     }
   ],
   editorialBoard: [
     {
-      id: 33,
+      id: 30,
       name: "Prof.(Dr.) Dinesh Goyal",
       role: "Principal & Director",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
-      id: 34,
+      id: 31,
       name: "Prof.(Dr.) Payal Bansal",
       role: "HOD - IOT",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
-      id: 35,
+      id: 32,
       name: "Dr. Madhav Sharma",
       role: "Associate Professor, Dept of IOT",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
-      id: 36,
+      id: 33,
       name: "Ashish Laddha",
-      role: "Assoc. Professor",
+      role: "Associate Professor",
       organization: "PIET, Jaipur"
     },
     {
-      id: 37,
+      id: 34,
       name: "Ritam Dutta",
       role: "Professor",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
@@ -256,37 +238,37 @@ const committeeData = {
   ],
   internationalSteering: [
     {
-      id: 38,
+      id: 35,
       name: "DR. YOGESH KUMAR SINGLA",
       role: "Research Associate",
       organization: "University of Idaho, USA"
     },
     {
-      id: 39,
+      id: 36,
       name: "DR. DIMITRIS KANELLOPOULOS",
       role: "Assoc. Prof.",
       organization: "UNIVERSITY OF PATRAS, GREECE"
     },
     {
-      id: 40,
+      id: 37,
       name: "empty empty",
       role: "Researcher",
       organization: "University of Miskolc, Hungary"
     },
     {
-      id: 41,
+      id: 38,
       name: "MOHD HELMY ABD WAHAB",
       role: "Senior Lecturer",
       organization: "UNIVERSITI TUN HUSSEIN ONN, MALAYSIA"
     },
     {
-      id: 42,
+      id: 39,
       name: "J. MIKE WALKER",
       role: "Senior Lecturer",
       organization: "Department of Mechanical Engineering, Texas A&M University, USA"
     },
     {
-      id: 43,
+      id: 40,
       name: "DR. SIVASAKTHIVEL THANGAVEL",
       role: "Senior Lecturer",
       organization: "GCETM, OMAN"
@@ -294,37 +276,37 @@ const committeeData = {
   ],
   nationalSteering: [
     {
-      id: 44,
+      id: 41,
       name: "Dr. Karan Nathwani",
       role: "Asst. Professor",
       organization: "IIT Jammu, India"
     },
     {
-      id: 45,
+      id: 42,
       name: "Dr. Rashmi Agarwal",
       role: "Department of Electrical Engineering",
       organization: "J.C. Bose University of Science & Technology, YMCA, Faridabad, India"
     },
     {
-      id: 46,
+      id: 43,
       name: "Dr. Felix Orlando",
-      role: "Assoc. Professor",
+      role: "Associate Professor",
       organization: "IIT Rorkee, India"
     },
     {
-      id: 47,
+      id: 44,
       name: "Prof. Mridula Gupta",
       role: "Professor",
       organization: "University of Delhi, South Campus"
     },
     {
-      id: 48,
+      id: 45,
       name: "Dr. Yamuna Prasad",
-      role: "Asst. Professor",
+      role: "Assistant Professor",
       organization: "IIT Jammu, India"
     },
     {
-      id: 49,
+      id: 46,
       name: "Dr. Shivani Sharma",
       role: "Principal Technical Consultant",
       organization: ""
@@ -332,51 +314,51 @@ const committeeData = {
   ],
   organizingCommittee: [
     {
-      id: 50,
+      id: 47,
       name: "Mr. Vishal Kothari",
-      role: "Professor",
+      role: "Assistant Professor",
+      organization: "Poornima Institute of Engineering & Technology, Jaipur"
+    },
+    {
+      id: 48,
+      name: "Vinod Kumar Gurjar",
+      role: "Technical Assistant",
+      organization: "Poornima Institute of Engineering & Technology, Jaipur"
+    },
+    {
+      id: 49,
+      name: "Ms. Samiksha Agarwal",
+      role: "Assistant Professor",
+      organization: "Poornima Institute of Engineering & Technology, Jaipur"
+    },
+    {
+      id: 50,
+      name: "Laxman Singh Chauhan",
+      role: "Technical Officer",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
       id: 51,
-      name: "Vinod Kumar Gurjar",
-      role: "",
-      organization: ""
-    },
-    {
-      id: 52,
-      name: "Ms. Samiksha Agarwal",
-      role: "Professor",
-      organization: "Poornima Institute of Engineering & Technology, Jaipur"
-    },
-    {
-      id: 53,
-      name: "Laxman Singh Chauhan",
-      role: "",
-      organization: "Poornima Institute of Engineering & Technology, Jaipur"
-    },
-    {
-      id: 54,
       name: "Surendra Kumar Sharma",
-      role: "",
+      role: "Technical Assistant",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     }
   ],
   localAdvisory: [
     {
-      id: 55,
+      id: 52,
       name: "Dr. Anil Kumar",
       role: "Prof., Dept. of CSE",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
-      id: 56,
+      id: 53,
       name: "DR. Budesh Kunwar",
       role: "Prof., Dept. of AIDS",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
     },
     {
-      id: 57,
+      id: 54,
       name: "DR. Sama Jain",
       role: "Prof., Dept. of Appl. Sc.",
       organization: "Poornima Institute of Engineering & Technology, Jaipur"
@@ -384,7 +366,7 @@ const committeeData = {
   ],
   publicationPartners: [
     {
-      id: 58,
+      id: 55,
       name: "AIP Conference Proceedings",
       role: "Publishing Organisation",
       organization: "American Institute of Physics"
@@ -472,16 +454,16 @@ export const CommitteesSection = () => {
           <CommitteeSection title="ORGANIZING CHAIR" members={committeeData.organizingChair} startIndex={8} />
           <CommitteeSection title="FINANCE CHAIR" members={committeeData.financeChair} startIndex={10} />
           <CommitteeSection title="PUBLICITY COMMITTEE" members={committeeData.publicityCommittee} startIndex={12} />
-          <CommitteeSection title="PUBLICITY CHAIR" members={committeeData.publicityChair} startIndex={15} />
-          <CommitteeSection title="LOGISTICS & HOSPITALITY COMMITTEE" members={committeeData.logisticsHospitality} startIndex={18} />
-          <CommitteeSection title="ACCOMMODATION & TRANSPORTATION COMMITTEE" members={committeeData.accommodationTransportation} startIndex={19} />
-          <CommitteeSection title="TECHNICAL PROGRAM COMMITTEE" members={committeeData.technicalProgram} startIndex={20} />
-          <CommitteeSection title="EDITORIAL BOARD" members={committeeData.editorialBoard} startIndex={32} />
-          <CommitteeSection title="INTERNATIONAL STEERING COMMITTEE" members={committeeData.internationalSteering} startIndex={37} />
-          <CommitteeSection title="NATIONAL STEERING COMMITTEE" members={committeeData.nationalSteering} startIndex={43} />
-          <CommitteeSection title="ORGANIZING COMMITTEE" members={committeeData.organizingCommittee} startIndex={49} />
-          <CommitteeSection title="LOCAL ADVISORY COMMITTEE" members={committeeData.localAdvisory} startIndex={54} />
-          <CommitteeSection title="PUBLICATION PARTNERS" members={committeeData.publicationPartners} startIndex={57} />
+          <CommitteeSection title="PUBLICITY CHAIR" members={committeeData.publicityChair} startIndex={14} />
+          <CommitteeSection title="LOGISTICS & HOSPITALITY COMMITTEE" members={committeeData.logisticsHospitality} startIndex={17} />
+          <CommitteeSection title="ACCOMMODATION & TRANSPORTATION COMMITTEE" members={committeeData.accommodationTransportation} startIndex={18} />
+          <CommitteeSection title="TECHNICAL PROGRAM COMMITTEE" members={committeeData.technicalProgram} startIndex={19} />
+          <CommitteeSection title="EDITORIAL BOARD" members={committeeData.editorialBoard} startIndex={29} />
+          <CommitteeSection title="INTERNATIONAL STEERING COMMITTEE" members={committeeData.internationalSteering} startIndex={34} />
+          <CommitteeSection title="NATIONAL STEERING COMMITTEE" members={committeeData.nationalSteering} startIndex={40} />
+          <CommitteeSection title="ORGANIZING COMMITTEE" members={committeeData.organizingCommittee} startIndex={46} />
+          <CommitteeSection title="LOCAL ADVISORY COMMITTEE" members={committeeData.localAdvisory} startIndex={51} />
+          <CommitteeSection title="PUBLICATION PARTNERS" members={committeeData.publicationPartners} startIndex={54} />
         </div>
       </div>
     </section>

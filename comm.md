@@ -11,24 +11,23 @@ position: Director (Admin \& Finance)
 organisation: Poornima Group, Jaipur
 
 **Honorary Chair:**
+- name: Prof. Sheng-Lung Peng
+- position: Department of Creative Technologies and Product Design,
+- organisation: National Taipei University of Business, Taiwan
 
-- name: International (Leave a blank for now)
-- position: EMPTY
-- organisation: EMPTY
-
-- name: Dr. MN Hooda //
+- name: Dr. MN Hooda
 position: Director
 organisation: Bharati Vidyapeeth, New Delhi
 
 **General Chair:**
 
 - name: Prof.(Dr.) CARLOS M, TRAVIESO-GONZALEZ
-position: empty
-organisation: Department of Signals \& Communication (IDeTIC), University of Las Palmas de Gran Canaria, Las Palmas
+position: Full Professor - Department of Signals \& Communication (IDeTIC)
+organisation: University of Las Palmas de Gran Canaria, Las Palmas
 
-- name: Dr. MN Hooda //
-position: Director
-organisation: Bharati Vidyapeeth, New Delhi
+- name: Deepak Mathur
+position: Member | Vice President
+organisation: IEEE MGA Board
 
 **Conference Chair:**
 
@@ -37,7 +36,7 @@ position: Principal \& Director
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Prof. Rachna Garg
-position: Professor (Electrical Engineering)
+position: Associate Dean (Innovation) and Professor Department of Electronics and Communication Engineering
 organisation: Delhi Technological University, Delhi
 
 **Organizing Chair:**
@@ -63,7 +62,7 @@ organisation: Jamia Hamdard --
 **Publicity Committee:**
 
 - name: Dr Madhav Sharma
-position: Associate Professor
+position: Assistant Professor
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Prof.(Dr.) RAJEEV KUMAR
@@ -73,13 +72,13 @@ organisation: MIT, Moradabad
 **Logistics \& Hospitality Committee:**
 
 - name: Mr. Vishal Kothari
-position: Professor --
+position: Assistant Professor
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 **Accomodation \& Transportation Committee:**
 
 - name: Ms. Sameeksha
-position: Assistant Professor --
+position: Assistant Professor
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 **Technical Program Committee:**
@@ -89,11 +88,11 @@ position: Dean-Faculty of Engineering and Technology and Prof. CSE Department
 organisation: Guru Gobind Singh University
 
 - name: Dr. Badri N Subudhi
-position: Assoc. Prof.
+position: Associate Professor
 organisation: IIT Jammu
 
 - name: Dr. Mahendra Kumar
-position: Assoc. Prof.
+position: Associate Professor
 organisation: NIT JALANDHAR
 
 - name: Dr. Brojo Kishor Mishra
@@ -117,11 +116,11 @@ organisation: NIT Silchar
   organisation: Amity University, Kolkata
 
   - name: Dr. Suganthi K.
-  position: Assoc. Prof.
+  position: Associate Professor
   organisation: SRM Institute of Science & Technology, Chennai
 
   - name: Ashish Laddha
-  position: Assoc. Prof.
+  position: Associate Professor
   organisation: PIET, Jaipur
 
 
@@ -140,7 +139,7 @@ position: Associate Professor, Dept of IOT
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Ashish Laddha
-position: Assoc. Professor
+position: Associate Professor
 organisation: PIET, Jaipur
 
 - name: Ritam Dutta
@@ -150,7 +149,7 @@ organisation: Poornima Institute of Engineering \& Technology, Jaipur
 **PUBLICITY CHAIR:**
 
 - name: Dr. Ashish Laddha
-position: Assoc. Professor
+position: Associate Professor
 organisation: PIET, Jaipur
 
 - name: Prof.(Dr.) RAJEEV KUMAR
@@ -188,8 +187,6 @@ position: Senior Lecturer
 organisation: GCETM, OMAN
 
 
-
-
 **NATIONAL STEERING COMMITTEE:**
 
 - name: Dr. Karan Nathwani
@@ -201,7 +198,7 @@ organisation: GCETM, OMAN
   organisation: J.C. Bose University of Science & Technology, YMCA, Faridabad, India
 
 - name: Dr. Felix Orlando
-    position: Assoc. Professor
+    position: Associate Professor
     organisation: IIT Rorkee, India
 
 - name: Prof. Mridula Gupta
@@ -209,7 +206,7 @@ organisation: GCETM, OMAN
     organisation: University of Delhi, South Campus
 
 - name: Dr. Yamuna Prasad
-  position: Asst. Professor
+  position: Assistant Professor
   organisation: IIT Jammu, India
 
 - name: Dr. Shivani Sharma
@@ -220,23 +217,23 @@ organisation: GCETM, OMAN
 **ORGANIZING COMMITTEE:**
 
 - name: Mr. Vishal Kothari
-position: Professor
+position: Assistant Professor
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Vinod Kumar Gurjar
-  position: empty
-  organisation: empty
+  position: Technical Assistant
+  organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Ms. Samiksha Agarwal
-    position: Professor
+    position: Assistant Professor
     organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Laxman Singh Chauhan
-  position: empty
+  position: Technical Officer
   organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Surendra Kumar Sharma
-  position: empty
+  position: Technical Assistant
   organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 **LOCAL ADVISORY COMMITTEE:**
