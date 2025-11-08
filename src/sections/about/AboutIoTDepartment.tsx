@@ -6,6 +6,7 @@ import Image from "next/image";
 const ktlogoPath = "/assets/ktlogo.png";
 const arrowRightPath = "/assets/arrow-right.svg";
 const pic8 = "/assets/confg/pic8.JPG";
+const pic9 = "/assets/pics/iot.png.jpg";
 
 export const AboutIoTDepartment = () => {
   const fadeInUpVariants = {
@@ -81,7 +82,7 @@ export const AboutIoTDepartment = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-[0_15px_30px_rgba(0,0,0,0.1)] border border-[#F1F1F1] w-full max-w-[400px]">
               <Image
-                src={pic8}
+                src={pic9}
                 alt="IoT Department"
                 width={400}
                 height={280}
