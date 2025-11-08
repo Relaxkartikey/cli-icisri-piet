@@ -72,10 +72,7 @@ export const Footer = () => {
                 <Image src="/assets/pics/idea.png" alt="Organizer 1" width={60} height={40} className="object-contain" />
               </div>
               <div className="bg-white rounded-lg p-3 flex items-center justify-center hover:bg-white/10 transition-colors duration-300">
-                <Image src="/assets/pics/aicte.png" alt="Organizer 2" width={60} height={40} className="object-contain" />
-              </div>
-              <div className="bg-white rounded-lg p-3 flex items-center justify-center hover:bg-white/10 transition-colors duration-300">
-                <Image src="/assets/pics/piet.png" alt="Organizer 3" width={60} height={40} className="object-contain" />
+                <Image src="/assets/pics/piet.png" alt="Organizer 2" width={60} height={40} className="object-contain" />
               </div>
             </div>
           </div>
