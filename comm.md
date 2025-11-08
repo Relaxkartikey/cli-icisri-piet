@@ -46,7 +46,7 @@ position: HOD - IOT
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Dr. Shruti Jain
-position: Associate Dean (Innovation) and Professor Department of Electronics and Communication Engineering
+position: Associate Dean (Innovation) and Professor
 organisation: JP University
 
 **Finance Chair:**
@@ -56,8 +56,8 @@ position: Professor
 organisation: Poornima Institute of Engineering \& Technology, Jaipur
 
 - name: Dr Richa Gupta
-position: Assistant Professor, Department of CSE --
-organisation: Jamia Hamdard --
+position: Assistant Professor, Department of CSE
+organisation: Jamia Hamdard
 
 **Publicity Committee:**
 
@@ -170,9 +170,9 @@ organisation: University of Idaho, USA
 position: Assoc. Prof.
 organisation: UNIVERSITY OF PATRAS, GREECE
 
-- name: empty empty
-position: Researcher
-organisation: University of Miskolc, Hungary
+- name: Milan Tuba
+  position: Professor and of Computer Science, Mathematics and Electrical Engineering.
+  organisation: Singidunum University Belgrade, Serbia
 
 - name: MOHD HELMY ABD WAHAB
 position: Senior Lecturer

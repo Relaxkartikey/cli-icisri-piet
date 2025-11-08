@@ -74,7 +74,7 @@ const committeeData = {
     {
       id: 10,
       name: "Dr. Shruti Jain",
-      role: "Associate Dean (Innovation) and Professor Department of Electronics and Communication Engineering",
+      role: "Associate Dean (Innovation) and Professor",
       organization: "JP University"
     }
   ],
