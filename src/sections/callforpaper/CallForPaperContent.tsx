@@ -136,7 +136,7 @@ export const CallForPaperContent = () => {
               <div>
                 <h3 className="font-bold text-xl text-[#010D3E] mb-3">Review Process & Oral Presentation:</h3>
                 <p className="mb-3">
-                  All papers with a similarity score of less than 10% will undergo a double-blind review. The technical committee of the conference will review the papers, and the authors will be notified of the paper's status, which can be one of the following:
+                  All papers with a similarity score of less than 10% will undergo a double-blind review. The technical committee of the conference will review the papers, and the authors will be notified of the paper&apos;s status, which can be one of the following:
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>Accepted for oral presentation</li>
