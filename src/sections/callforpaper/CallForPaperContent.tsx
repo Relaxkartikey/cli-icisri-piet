@@ -125,9 +125,29 @@ export const CallForPaperContent = () => {
           </div>
           
           <div className="text-[#010D3E]/80 leading-relaxed text-lg text-justify bg-white rounded-2xl p-8 shadow-[0_7px_14px_#EAEAEA] border border-[#F1F1F1]">
-            <p>
-              Authors are kindly requested to submit their full-text papers in PDF format, inclusive of results, tables, figures, and references. Submitted papers will undergo a peer-review process, and accepted works will be published in conference proceedings. It is imperative that all submissions present original, unpublished research findings, whether experimental or theoretical. Papers under review or consideration for publication elsewhere are not eligible for submission. Please note that registration confirmation is contingent upon receipt of full payment. Only registered and presented papers will be included in the conference proceedings. Additionally, selected papers will be further considered for publication in a Scopus Indexed Journal.
-            </p>
+            <div className="space-y-6">
+              <div>
+                <h3 className="font-bold text-xl text-[#010D3E] mb-3">Submission Guidelines:</h3>
+                <p>
+                  To submit a paper for ICISRI-2026, authors must follow the conference proceedings format. The submission template for the conference is available for Word users and LaTeX users. The maximum length of the paper is six (6) pages. Authors must ensure that their research paper is original and has not been previously submitted to any other journal or conference. The similarity score of the manuscript should not exceed 10%. Manuscripts with a similarity score of more than 10% will not be processed.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="font-bold text-xl text-[#010D3E] mb-3">Review Process & Oral Presentation:</h3>
+                <p className="mb-3">
+                  All papers with a similarity score of less than 10% will undergo a double-blind review. The technical committee of the conference will review the papers, and the authors will be notified of the paper's status, which can be one of the following:
+                </p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Accepted for oral presentation</li>
+                  <li>Accepted with minor corrections for Oral Presentation</li>
+                  <li>Rejected</li>
+                </ul>
+                <p className="mt-3 italic text-base">
+                  Note: *yet to be announced
+                </p>
+              </div>
+            </div>
           </div>
         </motion.div>
 
